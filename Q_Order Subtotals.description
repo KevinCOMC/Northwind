@@ -1,0 +1,1 @@
+Record source for other queries. Uses Sum and CCur functions to compute subtotal for each order.
