@@ -1,7 +1,5 @@
 Version =20
 VersionRequired =20
-PublishOption =1
-Checksum =-354194505
 Begin Form
     RecordSelectors = NotDefault
     AutoCenter = NotDefault
@@ -17,216 +15,24 @@ Begin Form
     Width =11055
     DatasheetFontHeight =11
     ItemSuffix =276
-    DatasheetGridlinesColor =-2147483632
+    Right =25575
+    Bottom =12855
+    DatasheetGridlinesColor =-1
     Tag ="SplitList"
-    RecSrcDt = Begin
-        0xa365a31e580ae340
-    End
-    GUID = Begin
-        0xf0584cd90fbc6b43930316669acc409f
-    End
-    NameMap = Begin
-        0x0acc0e5500000000d4a22753fe288c46a534c1a1ed6e82aa0000000094bed560 ,
-        0x580ae340400000000100000045006d0070006c006f0079006500650073002000 ,
-        0x45007800740065006e00640065006400000000000000bb2d3a363d2d6247a20e ,
-        0x6788c33a6c6b01000000bf065763580ae340000000000000000045006d007000 ,
-        0x6c006f007900650065002000440065007400610069006c007300000000000000 ,
-        0x2068252db2cd504c8083936e2ba6e3ef000000008574641d580ae34003000000 ,
-        0xcc7310004d005300790073004f0062006a006500630074007300000000000000 ,
-        0xb42f93de57a6b042bdfefab1d0c9a608070000002068252db2cd504c8083936e ,
-        0x2ba6e3ef4e0061006d0065000000000000006ebd2301e2ed114cac6b1d8268fc ,
-        0x6125070000002068252db2cd504c8083936e2ba6e3ef54007900700065000000 ,
-        0x0000000000000000000000000000000000000000020000000000000000000000 ,
-        0x00000000000000003d005b00540065006d00700056006100720073005d002100 ,
-        0x5b005200650070006f007200740054006f004f00700065006e005d0000000000 ,
-        0x0000b345d6a58952494c8a27f7801712844301000000f645422b580ae3400000 ,
-        0x00000000000048006f006d00650000000000000072ab15c10a175840b6f12e85 ,
-        0x3ba015bc07000000d4a22753fe288c46a534c1a1ed6e82aa4c00610073007400 ,
-        0x20004e0061006d006500000000000000e3408da8b1a581488d7f42a0802b145a ,
-        0x06000000f0584cd90fbc6b43930316669acc409f49004400000000000000bf11 ,
-        0xbd7daf86ee43af9186bf2be5949207000000d4a22753fe288c46a534c1a1ed6e ,
-        0x82aa4600690072007300740020004e0061006d006500000000000000c11747ac ,
-        0x039b0a48b2de98d8e8f3899f07000000d4a22753fe288c46a534c1a1ed6e82aa ,
-        0x43006f006d00700061006e0079000000000000000f5c053f3a9a4240b06ab7b8 ,
-        0x8c7b694e07000000d4a22753fe288c46a534c1a1ed6e82aa4a006f0062002000 ,
-        0x5400690074006c006500000000000000042d320a1d392945b85bc503a13072b2 ,
-        0x07000000d4a22753fe288c46a534c1a1ed6e82aa45002d006d00610069006c00 ,
-        0x2000410064006400720065007300730000000000000002a977485984ca44a7c7 ,
-        0x5b7fba6f475a07000000d4a22753fe288c46a534c1a1ed6e82aa420075007300 ,
-        0x69006e006500730073002000500068006f006e006500000000000000a4001cc8 ,
-        0x0c06584088bf2ba0fc9013b007000000d4a22753fe288c46a534c1a1ed6e82aa ,
-        0x48006f006d0065002000500068006f006e006500000000000000e24b69b7dd9b ,
-        0x07479a0fcfc5a81382c207000000d4a22753fe288c46a534c1a1ed6e82aa4d00 ,
-        0x6f00620069006c0065002000500068006f006e00650000000000000076f57ddb ,
-        0x8ec4ff4f8799466c5015a30607000000d4a22753fe288c46a534c1a1ed6e82aa ,
-        0x46006100780020004e0075006d00620065007200000000000000188d5091f88b ,
-        0xc449bf8c52e1e81093d707000000d4a22753fe288c46a534c1a1ed6e82aa4e00 ,
-        0x6f00740065007300000000000000d3e9e61b4f2a7749b11105ef422134780700 ,
-        0x0000d4a22753fe288c46a534c1a1ed6e82aa4100640064007200650073007300 ,
-        0x000000000000b7bf4e63dd47b24cb92392d53828adf407000000d4a22753fe28 ,
-        0x8c46a534c1a1ed6e82aa4300690074007900000000000000be132e45503fb548 ,
-        0x9ba7b1d7133aeb0607000000d4a22753fe288c46a534c1a1ed6e82aa53007400 ,
-        0x6100740065002f00500072006f00760069006e00630065000000000000001490 ,
-        0xc1200804a9499f7795e6972ff8fe07000000d4a22753fe288c46a534c1a1ed6e ,
-        0x82aa5a00490050002f0050006f007300740061006c00200043006f0064006500 ,
-        0x000000000000517d1ed13bae5a42b71a4bd9ba376d5707000000d4a22753fe28 ,
-        0x8c46a534c1a1ed6e82aa43006f0075006e007400720079002f00520065006700 ,
-        0x69006f006e00000000000000f647e0aa4252b04e8cc8600c5f2249c807000000 ,
-        0xd4a22753fe288c46a534c1a1ed6e82aa49004400000000000000000000000000 ,
-        0x000000000000000000000c000000040000000000000000000000000000000000
-    End
     RecordSource ="Employees Extended"
     DatasheetFontName ="Calibri"
-    PrtMip = Begin
-        0xa0050000a0050000a0050000a0050000000000002f2b0000ba27000001000000 ,
-        0x010000006801000000000000a10700000100000001000000
-    End
-    PrtDevMode = Begin
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x010402059c00240f032f000002000100ea0a6f086400010001002c0102000100 ,
-        0x2c01030001004c65747465720000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000010000000000000001000000 ,
-        0x0200000000010000000000000000000000000000000000000000000050524956 ,
-        0xe230000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000180000000000102710271027 ,
-        0x0000102700000000000000004803c40200000000000000000000000000000000 ,
-        0x00000000000000000200000000000000600c10005c4b03006843040000000000 ,
-        0x0000000001000100000000000000000000000000000000009b339ecf11000000 ,
-        0x0000020000000100000000000000000000000000ff00ff000300000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x54060000524a5048414182820000000000000000000000005300470041005200 ,
-        0x44004e0045005200000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x00000000000000000000000000000000000000000c0600004241504841418282 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000
-    End
-    PrtDevNames = Begin
-        0x0800230059000100000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x00000000000000000000000000000000000000000000000000545330303100
-    End
     AllowPivotTableView =0
     AllowPivotChartView =0
     AllowPivotChartView =0
     FilterOnLoad =0
     SplitFormOrientation =1
     SplitFormSplitterBar =0
-    SplitFormSize =1080
+    SplitFormSize =1095
     SplitFormPrinting =1
     SplitFormOrientation =1
     SplitFormSplitterBar =0
-    SplitFormSize =1080
+    SplitFormSize =1095
     SplitFormPrinting =1
-    DatasheetBackColor12 =16777215
     ShowPageMargins =0
     DisplayOnSharePointSite =1
     TotalsRow =1
@@ -461,65 +267,20 @@ Begin Form
             BorderColor =12632256
             ForeColor =1462991
             FontName ="Arial"
-            LeftPadding =30
-            TopPadding =30
-            RightPadding =30
-            BottomPadding =30
-            GridlineStyleLeft =0
-            GridlineStyleTop =0
-            GridlineStyleRight =0
-            GridlineStyleBottom =0
-            GridlineWidthLeft =1
-            GridlineWidthTop =1
-            GridlineWidthRight =1
-            GridlineWidthBottom =1
         End
         Begin Rectangle
             BackStyle =0
+            BorderLineStyle =0
             BorderColor =12632256
-            LeftPadding =30
-            TopPadding =30
-            RightPadding =30
-            BottomPadding =30
-            GridlineStyleLeft =0
-            GridlineStyleTop =0
-            GridlineStyleRight =0
-            GridlineStyleBottom =0
-            GridlineWidthLeft =1
-            GridlineWidthTop =1
-            GridlineWidthRight =1
-            GridlineWidthBottom =1
         End
         Begin Line
+            BorderLineStyle =0
             BorderColor =12632256
-            LeftPadding =30
-            TopPadding =30
-            RightPadding =30
-            BottomPadding =30
-            GridlineStyleLeft =0
-            GridlineStyleTop =0
-            GridlineStyleRight =0
-            GridlineStyleBottom =0
-            GridlineWidthLeft =1
-            GridlineWidthTop =1
-            GridlineWidthRight =1
-            GridlineWidthBottom =1
         End
         Begin Image
             BackStyle =0
+            BorderLineStyle =0
             BorderColor =12632256
-            LeftPadding =30
-            TopPadding =30
-            RightPadding =30
-            BottomPadding =30
-            GridlineStyleLeft =0
-            GridlineStyleTop =0
-            GridlineStyleRight =0
-            GridlineStyleBottom =0
-            GridlineWidthLeft =1
-            GridlineWidthTop =1
-            GridlineWidthRight =1
-            GridlineWidthBottom =1
         End
         Begin CommandButton
             TextFontCharSet =238
@@ -527,188 +288,64 @@ Begin Form
             FontWeight =400
             ForeColor =1462991
             FontName ="Arial"
-            LeftPadding =30
-            TopPadding =30
-            RightPadding =30
-            BottomPadding =30
-            GridlineStyleLeft =0
-            GridlineStyleTop =0
-            GridlineStyleRight =0
-            GridlineStyleBottom =0
-            GridlineWidthLeft =1
-            GridlineWidthTop =1
-            GridlineWidthRight =1
-            GridlineWidthBottom =1
+            BorderLineStyle =0
         End
         Begin OptionButton
+            BorderLineStyle =0
             LabelX =230
             LabelY =-30
             BorderColor =12632256
-            LeftPadding =30
-            TopPadding =30
-            RightPadding =30
-            BottomPadding =30
-            GridlineStyleLeft =0
-            GridlineStyleTop =0
-            GridlineStyleRight =0
-            GridlineStyleBottom =0
-            GridlineWidthLeft =1
-            GridlineWidthTop =1
-            GridlineWidthRight =1
-            GridlineWidthBottom =1
         End
         Begin CheckBox
+            BorderLineStyle =0
             LabelX =230
             LabelY =-30
-            LeftPadding =30
-            TopPadding =30
-            RightPadding =30
-            BottomPadding =30
-            GridlineStyleLeft =0
-            GridlineStyleTop =0
-            GridlineStyleRight =0
-            GridlineStyleBottom =0
-            GridlineWidthLeft =1
-            GridlineWidthTop =1
-            GridlineWidthRight =1
-            GridlineWidthBottom =1
         End
         Begin OptionGroup
             BackStyle =1
+            BorderLineStyle =0
             BorderColor =12632256
-            LeftPadding =30
-            TopPadding =30
-            RightPadding =30
-            BottomPadding =30
-            GridlineStyleLeft =0
-            GridlineStyleTop =0
-            GridlineStyleRight =0
-            GridlineStyleBottom =0
-            GridlineWidthLeft =1
-            GridlineWidthTop =1
-            GridlineWidthRight =1
-            GridlineWidthBottom =1
         End
         Begin BoundObjectFrame
             AddColon = NotDefault
+            BorderLineStyle =0
             BorderColor =12632256
-            LeftPadding =30
-            TopPadding =30
-            RightPadding =30
-            BottomPadding =30
-            GridlineStyleLeft =0
-            GridlineStyleTop =0
-            GridlineStyleRight =0
-            GridlineStyleBottom =0
-            GridlineWidthLeft =1
-            GridlineWidthTop =1
-            GridlineWidthRight =1
-            GridlineWidthBottom =1
         End
         Begin TextBox
             AddColon = NotDefault
             FELineBreak = NotDefault
+            BorderLineStyle =0
             FontSize =11
             BorderColor =12632256
             FontName ="Calibri"
             AsianLineBreak =255
-            LeftPadding =30
-            TopPadding =30
-            RightPadding =30
-            BottomPadding =30
-            GridlineStyleLeft =0
-            GridlineStyleTop =0
-            GridlineStyleRight =0
-            GridlineStyleBottom =0
-            GridlineWidthLeft =1
-            GridlineWidthTop =1
-            GridlineWidthRight =1
-            GridlineWidthBottom =1
-            ShowDatePicker =1
         End
         Begin ListBox
             AddColon = NotDefault
+            BorderLineStyle =0
             FontSize =11
             BorderColor =12632256
             FontName ="Calibri"
-            LeftPadding =30
-            TopPadding =30
-            RightPadding =30
-            BottomPadding =30
-            GridlineStyleLeft =0
-            GridlineStyleTop =0
-            GridlineStyleRight =0
-            GridlineStyleBottom =0
-            GridlineWidthLeft =1
-            GridlineWidthTop =1
-            GridlineWidthRight =1
-            GridlineWidthBottom =1
         End
         Begin ComboBox
             AddColon = NotDefault
+            BorderLineStyle =0
             FontSize =11
             BorderColor =12632256
             FontName ="Calibri"
-            LeftPadding =30
-            TopPadding =30
-            RightPadding =30
-            BottomPadding =30
-            GridlineStyleLeft =0
-            GridlineStyleTop =0
-            GridlineStyleRight =0
-            GridlineStyleBottom =0
-            GridlineWidthLeft =1
-            GridlineWidthTop =1
-            GridlineWidthRight =1
-            GridlineWidthBottom =1
         End
         Begin Subform
             AddColon = NotDefault
+            BorderLineStyle =0
             BorderColor =12632256
-            LeftPadding =30
-            TopPadding =30
-            RightPadding =30
-            BottomPadding =30
-            GridlineStyleLeft =0
-            GridlineStyleTop =0
-            GridlineStyleRight =0
-            GridlineStyleBottom =0
-            GridlineWidthLeft =1
-            GridlineWidthTop =1
-            GridlineWidthRight =1
-            GridlineWidthBottom =1
         End
         Begin UnboundObjectFrame
             OldBorderStyle =1
             BorderColor =12632256
-            LeftPadding =30
-            TopPadding =30
-            RightPadding =30
-            BottomPadding =30
-            GridlineStyleLeft =0
-            GridlineStyleTop =0
-            GridlineStyleRight =0
-            GridlineStyleBottom =0
-            GridlineWidthLeft =1
-            GridlineWidthTop =1
-            GridlineWidthRight =1
-            GridlineWidthBottom =1
         End
         Begin CustomControl
             OldBorderStyle =1
             BorderColor =12632256
-            LeftPadding =30
-            TopPadding =30
-            RightPadding =30
-            BottomPadding =30
-            GridlineStyleLeft =0
-            GridlineStyleTop =0
-            GridlineStyleRight =0
-            GridlineStyleBottom =0
-            GridlineWidthLeft =1
-            GridlineWidthTop =1
-            GridlineWidthRight =1
-            GridlineWidthBottom =1
         End
         Begin ToggleButton
             TextFontCharSet =238
@@ -716,52 +353,19 @@ Begin Form
             FontWeight =400
             ForeColor =1462991
             FontName ="Arial"
-            LeftPadding =30
-            TopPadding =30
-            RightPadding =30
-            BottomPadding =30
-            GridlineStyleLeft =0
-            GridlineStyleTop =0
-            GridlineStyleRight =0
-            GridlineStyleBottom =0
-            GridlineWidthLeft =1
-            GridlineWidthTop =1
-            GridlineWidthRight =1
-            GridlineWidthBottom =1
+            BorderLineStyle =0
         End
         Begin Tab
             FontSize =11
             FontName ="Calibri"
-            LeftPadding =30
-            TopPadding =30
-            RightPadding =30
-            BottomPadding =30
-            GridlineStyleLeft =0
-            GridlineStyleTop =0
-            GridlineStyleRight =0
-            GridlineStyleBottom =0
-            GridlineWidthLeft =1
-            GridlineWidthTop =1
-            GridlineWidthRight =1
-            GridlineWidthBottom =1
+            BorderLineStyle =0
         End
         Begin Attachment
+            BorderLineStyle =0
             PictureSizeMode =3
             Width =4800
             Height =3840
             BorderColor =12632256
-            LeftPadding =30
-            TopPadding =30
-            RightPadding =30
-            BottomPadding =30
-            GridlineStyleLeft =0
-            GridlineStyleTop =0
-            GridlineStyleRight =0
-            GridlineStyleBottom =0
-            GridlineWidthLeft =1
-            GridlineWidthTop =1
-            GridlineWidthRight =1
-            GridlineWidthBottom =1
             LabelX =-1800
             AddColon =0
         End
@@ -769,12 +373,9 @@ Begin Form
             Height =1080
             BackColor =12371399
             Name ="FormHeader"
-            GUID = Begin
-                0xd89f96a53e337e4fb009a4b7c51a5641
-            End
             Begin
                 Begin Label
-                    OverlapFlags =85
+                    OverlapFlags =81
                     TextFontCharSet =0
                     TextFontFamily =0
                     Left =1236
@@ -785,11 +386,8 @@ Begin Form
                     BorderColor =16251385
                     ForeColor =16777215
                     Name ="Auto_Title0"
-                    Caption ="Employee List"
+                    Caption ="Employee List New"
                     FontName ="Trebuchet"
-                    GUID = Begin
-                        0xe27d5d217a64cd43808cf0284b0d4771
-                    End
                 End
                 Begin Image
                     OldBorderStyle =0
@@ -800,9 +398,6 @@ Begin Form
                     BorderColor =14870503
                     Name ="Auto_Logo0"
                     Picture ="assetsLogo.bmp"
-                    GUID = Begin
-                        0x92431e4b3a2fa9469b423e1e7ec5afc1
-                    End
                     ImageData = Begin
                         0x89504e470d0a1a0a0000000d49484452000000230000001b0806000000f6f036 ,
                         0x990000000467414d410000afc837058ae90000001974455874536f6674776172 ,
@@ -892,15 +487,15 @@ Begin Form
                         0xfec2f5e7f7675e6874b340a3fc37a801c0c8ccfc0b98264051f2036af96f680b ,
                         0x040e00020c009d8782760de261800000000049454e44ae426082
                     End
+
                     TabIndex =6
                 End
                 Begin CommandButton
-                    OverlapFlags =85
                     AccessKey =78
                     TextFontCharSet =0
                     TextFontFamily =0
                     Left =240
-                    Top =691
+                    Top =690
                     Width =1305
                     FontSize =8
                     TabIndex =3
@@ -910,14 +505,11 @@ Begin Form
                     FontName ="Trebuchet"
                     Tag ="NewItemPopup~FormName=Employee Details~SourceID=ID"
                     EventProcPrefix ="cmdNew_Contact"
-                    GUID = Begin
-                        0x276af63eed5f344e9501e7990d0cbcc6
-                    End
                     UnicodeAccessKey =78
-                    ColumnGroup =1
                     GroupTable =28
                     TopPadding =0
-                    BottomPadding =0
+                    RightPadding =38
+                    BottomPadding =8
                     VerticalAnchor =1
                     OnClickEmMacro = Begin
                         Version =196611
@@ -945,17 +537,43 @@ Begin Form
                             Argument ="2"
                             Argument ="=\"[ID]=\" & Nz(DMax(\"[ID]\",[Form].[RecordSource]),0)"
                         End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"cmdNewEmployee\" xmlns=\"http://schemas.microsoft.com/office"
+                                "/accessservices/2009/11/application\" xmlns:a=\"http://schemas.microsoft.com/off"
+                                "ice/accessservices/2009/11/for"
+                        End
+                        Begin
+                            Comment ="_AXL:ms\"><Statements><Action Name=\"OpenForm\"><Argument Name=\"FormName\">Empl"
+                                "oyee Details</Argument><Argument Name=\"WhereCondition\">1=0</Argument><Argument"
+                                " Name=\"WindowMode\">Dialog</Argument></Action><Action Name=\"OnError\"/><Action"
+                                " Name=\"Requery\"/><Action"
+                        End
+                        Begin
+                            Comment ="_AXL: Name=\"SearchForRecord\"><Argument Name=\"WhereCondition\">=\"[ID]=\" &amp"
+                                "; Nz(DMax(\"[ID]\",[Form].[RecordSource]),0)</Argument></Action></Statements></U"
+                                "serInterfaceMacro>"
+                        End
                     End
                     BackStyle =0
+
                     CursorOnHover =1
+                    LayoutCachedLeft =240
+                    LayoutCachedTop =690
+                    LayoutCachedWidth =1545
+                    LayoutCachedHeight =1050
+                    LayoutGroup =1
+                    GroupTable =28
+                    WebImagePaddingLeft =2
+                    WebImagePaddingRight =2
+                    Overlaps =1
                 End
                 Begin CommandButton
-                    OverlapFlags =85
                     AccessKey =79
                     TextFontCharSet =0
                     TextFontFamily =0
-                    Left =3525
-                    Top =691
+                    Left =3555
+                    Top =690
                     Width =1635
                     FontSize =8
                     ForeColor =16777215
@@ -963,14 +581,11 @@ Begin Form
                     Caption ="Add From &Outlook"
                     FontName ="Trebuchet"
                     Tag ="AddFromOutlook"
-                    GUID = Begin
-                        0x3a79d1e21cb3e545a0c99ac8c47c94a0
-                    End
                     UnicodeAccessKey =79
-                    ColumnGroup =2
                     GroupTable =28
                     TopPadding =0
-                    BottomPadding =0
+                    RightPadding =38
+                    BottomPadding =8
                     VerticalAnchor =1
                     OnClickEmMacro = Begin
                         Version =196611
@@ -983,17 +598,39 @@ Begin Form
                             Action ="RunCommand"
                             Argument ="583"
                         End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"cmdAddFromOutlook\" xmlns=\"http://schemas.microsoft.com/off"
+                                "ice/accessservices/2009/11/application\" xmlns:a=\"http://schemas.microsoft.com/"
+                                "office/accessservices/2009/11/"
+                        End
+                        Begin
+                            Comment ="_AXL:forms\"><Statements><Action Name=\"OnError\"/><Action Name=\"RunMenuCommand"
+                                "\"><Argument Name=\"Command\">AddContactFromOutlook</Argument></Action></Stateme"
+                                "nts></UserInterfaceMacro>"
+                        End
                     End
                     BackStyle =0
+
                     CursorOnHover =1
+                    LayoutCachedLeft =3555
+                    LayoutCachedTop =690
+                    LayoutCachedWidth =5190
+                    LayoutCachedHeight =1050
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    GroupTable =28
+                    WebImagePaddingLeft =2
+                    WebImagePaddingRight =2
+                    Overlaps =1
                 End
                 Begin CommandButton
-                    OverlapFlags =85
                     AccessKey =69
                     TextFontCharSet =0
                     TextFontFamily =0
-                    Left =5220
-                    Top =691
+                    Left =5265
+                    Top =690
                     Width =975
                     FontSize =8
                     TabIndex =1
@@ -1002,14 +639,11 @@ Begin Form
                     Caption ="&E-mail List"
                     FontName ="Trebuchet"
                     Tag ="EmailCurrentForm~Subject=~Body="
-                    GUID = Begin
-                        0x22288e03d2583249b9920aa6f73a4c27
-                    End
                     UnicodeAccessKey =69
-                    ColumnGroup =3
                     GroupTable =28
                     TopPadding =0
-                    BottomPadding =0
+                    RightPadding =38
+                    BottomPadding =8
                     VerticalAnchor =1
                     OnClickEmMacro = Begin
                         Version =196611
@@ -1030,17 +664,39 @@ Begin Form
                             Argument =""
                             Argument ="-1"
                         End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"cmdEmailList\" xmlns=\"http://schemas.microsoft.com/office/a"
+                                "ccessservices/2009/11/application\" xmlns:a=\"http://schemas.microsoft.com/offic"
+                                "e/accessservices/2009/11/forms"
+                        End
+                        Begin
+                            Comment ="_AXL:\"><Statements><Action Name=\"OnError\"/><Action Name=\"EMailDatabaseObject"
+                                "\"><Argument Name=\"ObjectType\">Form</Argument></Action></Statements></UserInte"
+                                "rfaceMacro>"
+                        End
                     End
                     BackStyle =0
+
                     CursorOnHover =1
+                    LayoutCachedLeft =5265
+                    LayoutCachedTop =690
+                    LayoutCachedWidth =6240
+                    LayoutCachedHeight =1050
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =28
+                    WebImagePaddingLeft =2
+                    WebImagePaddingRight =2
+                    Overlaps =1
                 End
                 Begin CommandButton
-                    OverlapFlags =85
                     AccessKey =86
                     TextFontCharSet =0
                     TextFontFamily =0
-                    Left =1605
-                    Top =691
+                    Left =1620
+                    Top =690
                     Width =1860
                     FontSize =8
                     TabIndex =4
@@ -1049,14 +705,11 @@ Begin Form
                     Caption ="Collect Data &via E-mail"
                     FontName ="Trebuchet"
                     Tag ="DataCollectionForQuery~QueryName=Employees Extended"
-                    GUID = Begin
-                        0xf1c4e3de61093048b82fdbaf5830ea15
-                    End
                     UnicodeAccessKey =118
-                    ColumnGroup =4
                     GroupTable =28
                     TopPadding =0
-                    BottomPadding =0
+                    RightPadding =38
+                    BottomPadding =8
                     VerticalAnchor =1
                     OnClickEmMacro = Begin
                         Version =196611
@@ -1077,26 +730,50 @@ Begin Form
                             Argument ="Employees Extended"
                             Argument ="0"
                         End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"cmdCollectDataviaEmail\" xmlns=\"http://schemas.microsoft.co"
+                                "m/office/accessservices/2009/11/application\" xmlns:a=\"http://schemas.microsoft"
+                                ".com/office/accessservices/200"
+                        End
+                        Begin
+                            Comment ="_AXL:9/11/forms\"><Statements><Action Name=\"OpenQuery\"><Argument Name=\"QueryN"
+                                "ame\">Employees Extended</Argument></Action><Action Name=\"RunMenuCommand\"><Arg"
+                                "ument Name=\"Command\">CollectDataViaEmail</Argument></Action><Action Name=\"Clo"
+                                "seWindow\"><Argument Nam"
+                        End
+                        Begin
+                            Comment ="_AXL:e=\"ObjectType\">Query</Argument><Argument Name=\"ObjectName\">Employees Ex"
+                                "tended</Argument></Action></Statements></UserInterfaceMacro>"
+                        End
                     End
                     BackStyle =0
+
                     CursorOnHover =1
+                    LayoutCachedLeft =1620
+                    LayoutCachedTop =690
+                    LayoutCachedWidth =3480
+                    LayoutCachedHeight =1050
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =28
+                    WebImagePaddingLeft =2
+                    WebImagePaddingRight =2
+                    Overlaps =1
                 End
                 Begin ComboBox
                     LimitToList = NotDefault
-                    OverlapFlags =85
                     AccessKey =82
                     IMESentenceMode =3
                     ListWidth =4320
-                    Left =7147
-                    Top =691
+                    Left =7200
+                    Top =690
                     Height =360
                     FontSize =10
                     TabIndex =2
                     BorderColor =16251385
                     ColumnInfo ="\"\";\"\";\"10\";\"510\""
-                    GUID = Begin
-                        0x8291edfd01a22244b011868fb665964c
-                    End
                     Name ="cboReports"
                     RowSourceType ="Table/Query"
                     RowSource ="SELECT MSysObjects.Name FROM MSysObjects WHERE (((MSysObjects.Name) Not Like \"*"
@@ -1104,10 +781,10 @@ Begin Form
                     ColumnWidths ="1445"
                     Tag ="NavigateToReport"
                     UnicodeAccessKey =82
-                    ColumnGroup =22
                     GroupTable =28
                     TopPadding =0
-                    BottomPadding =0
+                    RightPadding =38
+                    BottomPadding =8
                     VerticalAnchor =1
                     AfterUpdateEmMacro = Begin
                         Version =196611
@@ -1139,17 +816,51 @@ Begin Form
                             Action ="RemoveTempVar"
                             Argument ="ReportToOpen"
                         End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"cboReports\" xmlns=\"http://schemas.microsoft.com/office/acc"
+                                "essservices/2009/11/application\" xmlns:a=\"http://schemas.microsoft.com/office/"
+                                "accessservices/2009/11/forms\">"
+                        End
+                        Begin
+                            Comment ="_AXL:<Statements><ConditionalBlock><If><Condition>IsNull([Screen].[ActiveControl"
+                                "])</Condition><Statements><Action Name=\"StopMacro\"/></Statements></If></Condit"
+                                "ionalBlock><Action Name=\"SetTempVar\"><Argument Name=\"Name\">ReportToOpen</Arg"
+                                "ument><Argument Nam"
+                        End
+                        Begin
+                            Comment ="_AXL:e=\"Expression\">[Screen].[ActiveControl]</Argument></Action><ConditionalBl"
+                                "ock><If><Condition>[CurrentProject].[IsTrusted]</Condition><Statements><Action N"
+                                "ame=\"SetValue\"><Argument Name=\"Item\">[Screen].[ActiveControl]</Argument><Arg"
+                                "ument Name=\"Express"
+                        End
+                        Begin
+                            Comment ="_AXL:ion\">Null</Argument></Action></Statements></If></ConditionalBlock><Action "
+                                "Name=\"OpenReport\"><Argument Name=\"ReportName\">=[TempVars]![ReportToOpen]</Ar"
+                                "gument></Action><Action Name=\"RemoveTempVar\"><Argument Name=\"Name\">ReportToO"
+                                "pen</Argument></Action"
+                        End
+                        Begin
+                            Comment ="_AXL:></Statements></UserInterfaceMacro>"
+                        End
                     End
                     AllowValueListEdits =1
                     InheritValueList =1
-                    IMEMode =0
+
+                    LayoutCachedLeft =7200
+                    LayoutCachedTop =690
+                    LayoutCachedWidth =8640
+                    LayoutCachedHeight =1050
+                    ColumnStart =5
+                    ColumnEnd =5
+                    LayoutGroup =1
+                    GroupTable =28
                     Begin
                         Begin Label
-                            OverlapFlags =85
                             TextFontCharSet =0
                             TextFontFamily =0
-                            Left =6255
-                            Top =691
+                            Left =6315
+                            Top =690
                             Width =825
                             Height =360
                             LeftMargin =45
@@ -1161,24 +872,27 @@ Begin Form
                             Name ="cboReports_Label"
                             Caption ="&Reports"
                             FontName ="Trebuchet"
-                            GUID = Begin
-                                0x8eb49a4ba9e7a34ea5f104f0274920a7
-                            End
-                            ColumnGroup =21
                             GroupTable =28
                             TopPadding =0
-                            BottomPadding =0
+                            BottomPadding =8
                             VerticalAnchor =1
+                            LayoutCachedLeft =6315
+                            LayoutCachedTop =690
+                            LayoutCachedWidth =7140
+                            LayoutCachedHeight =1050
+                            ColumnStart =4
+                            ColumnEnd =4
+                            LayoutGroup =1
+                            GroupTable =28
                         End
                     End
                 End
                 Begin CommandButton
-                    OverlapFlags =85
                     AccessKey =72
                     TextFontCharSet =0
                     TextFontFamily =0
                     Left =9720
-                    Top =691
+                    Top =690
                     Width =780
                     Height =345
                     FontSize =8
@@ -1188,14 +902,11 @@ Begin Form
                     Caption ="&Home"
                     FontName ="Trebuchet"
                     Tag ="OpenForm~FormName=Home"
-                    GUID = Begin
-                        0xc1b4d01f6c7879409d9ec36846651142
-                    End
                     UnicodeAccessKey =72
-                    ColumnGroup =23
                     GroupTable =30
                     TopPadding =0
-                    BottomPadding =0
+                    RightPadding =38
+                    BottomPadding =8
                     HorizontalAnchor =1
                     OnClickEmMacro = Begin
                         Version =196611
@@ -1207,32 +918,48 @@ Begin Form
                             Argument =""
                             Argument =""
                             Argument ="-1"
-                            Argument ="-1"
+                            Argument ="0"
+                        End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"cmdHome\" xmlns=\"http://schemas.microsoft.com/office/access"
+                                "services/2009/11/application\" xmlns:a=\"http://schemas.microsoft.com/office/acc"
+                                "essservices/2009/11/forms\"><St"
+                        End
+                        Begin
+                            Comment ="_AXL:atements><Action Name=\"OpenForm\"><Argument Name=\"FormName\">Home</Argume"
+                                "nt></Action></Statements></UserInterfaceMacro>"
                         End
                     End
                     ImageData = Begin
                         0x00000000
                     End
                     BackStyle =0
+
                     CursorOnHover =1
+                    LayoutCachedLeft =9720
+                    LayoutCachedTop =690
+                    LayoutCachedWidth =10500
+                    LayoutCachedHeight =1035
+                    LayoutGroup =3
+                    GroupTable =30
+                    WebImagePaddingLeft =2
+                    WebImagePaddingRight =2
+                    Overlaps =1
                 End
             End
         End
         Begin Section
             CanGrow = NotDefault
-            Height =10170
+            Height =9563
             BackColor =14870503
             Name ="Detail"
-            GUID = Begin
-                0x9911a0bec290f04dae004d7f940e58f7
-            End
             AutoHeight =255
             AlternateBackColor =14870503
             Begin
                 Begin TextBox
-                    OverlapFlags =85
                     Left =2535
-                    Top =992
+                    Top =990
                     Width =3870
                     Height =315
                     ColumnWidth =1590
@@ -1243,13 +970,10 @@ Begin Form
                     StatusBarText ="Double-click to go to details"
                     Tag ="DrillToDetails~FormName=Employee Details~SourceID=ID"
                     EventProcPrefix ="Last_Name"
-                    GUID = Begin
-                        0x892a50c3987f3649a8db43ff7c9a21c0
-                    End
-                    RowGroup =6
                     GroupTable =29
                     TopPadding =23
-                    BottomPadding =23
+                    RightPadding =38
+                    BottomPadding =31
                     HorizontalAnchor =1
                     OnDblClickEmMacro = Begin
                         Version =196611
@@ -1279,8 +1003,6 @@ Begin Form
                             Argument ="2"
                         End
                         Begin
-                        End
-                        Begin
                             Condition ="Not IsNull([ID])"
                             Action ="OpenForm"
                             Argument ="Employee Details"
@@ -1290,34 +1012,75 @@ Begin Form
                             Argument ="-1"
                             Argument ="3"
                         End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"Last Name\" xmlns=\"http://schemas.microsoft.com/office/acce"
+                                "ssservices/2009/11/application\" xmlns:a=\"http://schemas.microsoft.com/office/a"
+                                "ccessservices/2009/11/forms\"><"
+                        End
+                        Begin
+                            Comment ="_AXL:Statements><Action Name=\"OnError\"/><ConditionalBlock><If><Condition>[Form"
+                                "].[Dirty]</Condition><Statements><Action Name=\"SaveRecord\"/></Statements></If>"
+                                "</ConditionalBlock><ConditionalBlock><If><Condition>[MacroError].[Number]&lt;&gt"
+                                ";0</Condition><St"
+                        End
+                        Begin
+                            Comment ="_AXL:atements><Action Name=\"MessageBox\"><Argument Name=\"Message\">=[MacroErro"
+                                "r].[Description]</Argument></Action><Action Name=\"StopMacro\"/></Statements></I"
+                                "f></ConditionalBlock><Action Name=\"OnError\"><Argument Name=\"Goto\">Fail</Argu"
+                                "ment></Action><Conditio"
+                        End
+                        Begin
+                            Comment ="_AXL:nalBlock><If><Condition>Not IsNull([ID])</Condition><Statements><Action Nam"
+                                "e=\"OpenForm\"><Argument Name=\"FormName\">Employee Details</Argument><Argument "
+                                "Name=\"WhereCondition\">=\"[ID]=\" &amp; [ID]</Argument><Argument Name=\"WindowM"
+                                "ode\">Dialog</Argument>"
+                        End
+                        Begin
+                            Comment ="_AXL:</Action></Statements></If></ConditionalBlock></Statements></UserInterfaceM"
+                                "acro>"
+                        End
                     End
-                    IMEMode =0
+
+                    LayoutCachedLeft =2535
+                    LayoutCachedTop =990
+                    LayoutCachedWidth =6405
+                    LayoutCachedHeight =1305
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =29
                     Begin
                         Begin Label
-                            OverlapFlags =85
+                            OverlapFlags =81
                             Left =960
-                            Top =992
+                            Top =990
                             Width =1515
                             Height =315
                             Name ="Last Name_Label"
                             Caption ="Last Name"
                             Tag =";RegenerateCaption;"
                             EventProcPrefix ="Last_Name_Label"
-                            GUID = Begin
-                                0x00af61eb82d32b43b21e84296bc08903
-                            End
-                            RowGroup =6
                             GroupTable =29
                             TopPadding =23
-                            BottomPadding =23
+                            BottomPadding =31
                             HorizontalAnchor =1
+                            LayoutCachedLeft =960
+                            LayoutCachedTop =990
+                            LayoutCachedWidth =2475
+                            LayoutCachedHeight =1305
+                            RowStart =2
+                            RowEnd =2
+                            LayoutGroup =2
+                            GroupTable =29
                         End
                     End
                 End
                 Begin TextBox
-                    OverlapFlags =85
                     Left =2535
-                    Top =616
+                    Top =615
                     Width =3870
                     Height =315
                     ColumnWidth =1455
@@ -1327,13 +1090,10 @@ Begin Form
                     StatusBarText ="Double-click to go to details"
                     Tag ="DrillToDetails~FormName=Employee Details~SourceID=ID"
                     EventProcPrefix ="First_Name"
-                    GUID = Begin
-                        0x01927fde342768429a33e4d303a75336
-                    End
-                    RowGroup =5
                     GroupTable =29
                     TopPadding =23
-                    BottomPadding =23
+                    RightPadding =38
+                    BottomPadding =31
                     HorizontalAnchor =1
                     OnDblClickEmMacro = Begin
                         Version =196611
@@ -1363,8 +1123,6 @@ Begin Form
                             Argument ="2"
                         End
                         Begin
-                        End
-                        Begin
                             Condition ="Not IsNull([ID])"
                             Action ="OpenForm"
                             Argument ="Employee Details"
@@ -1374,35 +1132,75 @@ Begin Form
                             Argument ="-1"
                             Argument ="3"
                         End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"First Name\" xmlns=\"http://schemas.microsoft.com/office/acc"
+                                "essservices/2009/11/application\" xmlns:a=\"http://schemas.microsoft.com/office/"
+                                "accessservices/2009/11/forms\">"
+                        End
+                        Begin
+                            Comment ="_AXL:<Statements><Action Name=\"OnError\"/><ConditionalBlock><If><Condition>[For"
+                                "m].[Dirty]</Condition><Statements><Action Name=\"SaveRecord\"/></Statements></If"
+                                "></ConditionalBlock><ConditionalBlock><If><Condition>[MacroError].[Number]&lt;&g"
+                                "t;0</Condition><S"
+                        End
+                        Begin
+                            Comment ="_AXL:tatements><Action Name=\"MessageBox\"><Argument Name=\"Message\">=[MacroErr"
+                                "or].[Description]</Argument></Action><Action Name=\"StopMacro\"/></Statements></"
+                                "If></ConditionalBlock><Action Name=\"OnError\"><Argument Name=\"Goto\">Fail</Arg"
+                                "ument></Action><Conditi"
+                        End
+                        Begin
+                            Comment ="_AXL:onalBlock><If><Condition>Not IsNull([ID])</Condition><Statements><Action Na"
+                                "me=\"OpenForm\"><Argument Name=\"FormName\">Employee Details</Argument><Argument"
+                                " Name=\"WhereCondition\">=\"[ID]=\" &amp; [ID]</Argument><Argument Name=\"Window"
+                                "Mode\">Dialog</Argument"
+                        End
+                        Begin
+                            Comment ="_AXL:></Action></Statements></If></ConditionalBlock></Statements></UserInterface"
+                                "Macro>"
+                        End
                     End
                     AggregateType =2
-                    IMEMode =0
+
+                    LayoutCachedLeft =2535
+                    LayoutCachedTop =615
+                    LayoutCachedWidth =6405
+                    LayoutCachedHeight =930
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =29
                     Begin
                         Begin Label
-                            OverlapFlags =85
                             Left =960
-                            Top =616
+                            Top =615
                             Width =1515
                             Height =315
                             Name ="First Name_Label"
                             Caption ="First Name"
                             Tag =";RegenerateCaption;"
                             EventProcPrefix ="First_Name_Label"
-                            GUID = Begin
-                                0xea883d4e5d57634fb0ff59a3533cf5dd
-                            End
-                            RowGroup =5
                             GroupTable =29
                             TopPadding =23
-                            BottomPadding =23
+                            BottomPadding =31
                             HorizontalAnchor =1
+                            LayoutCachedLeft =960
+                            LayoutCachedTop =615
+                            LayoutCachedWidth =2475
+                            LayoutCachedHeight =930
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =2
+                            GroupTable =29
                         End
                     End
                 End
                 Begin TextBox
-                    OverlapFlags =85
                     Left =2535
-                    Top =2120
+                    Top =2115
                     Width =3870
                     Height =315
                     ColumnWidth =1650
@@ -1410,100 +1208,115 @@ Begin Form
                     TabIndex =5
                     Name ="Company"
                     ControlSource ="Company"
-                    GUID = Begin
-                        0x5f39d52fabce604d9425f788aac6ec08
-                    End
-                    RowGroup =9
                     GroupTable =29
                     TopPadding =23
-                    BottomPadding =23
+                    RightPadding =38
+                    BottomPadding =31
                     HorizontalAnchor =1
-                    IMEMode =0
+
+                    LayoutCachedLeft =2535
+                    LayoutCachedTop =2115
+                    LayoutCachedWidth =6405
+                    LayoutCachedHeight =2430
+                    RowStart =5
+                    RowEnd =5
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =29
                     Begin
                         Begin Label
-                            OverlapFlags =85
                             Left =960
-                            Top =2120
+                            Top =2115
                             Width =1515
                             Height =315
                             Name ="Company_Label"
                             Caption ="Company"
                             Tag =";RegenerateCaption;"
-                            GUID = Begin
-                                0xdfe6d52a8172e4469864abf1fb377615
-                            End
-                            RowGroup =9
                             GroupTable =29
                             TopPadding =23
-                            BottomPadding =23
+                            BottomPadding =31
                             HorizontalAnchor =1
+                            LayoutCachedLeft =960
+                            LayoutCachedTop =2115
+                            LayoutCachedWidth =2475
+                            LayoutCachedHeight =2430
+                            RowStart =5
+                            RowEnd =5
+                            LayoutGroup =2
+                            GroupTable =29
                         End
                     End
                 End
                 Begin TextBox
-                    OverlapFlags =85
                     Left =2535
-                    Top =2496
+                    Top =2490
                     Width =3870
                     Height =315
-                    ColumnWidth =1800
+                    ColumnWidth =4680
                     ColumnOrder =15
                     TabIndex =6
                     Name ="Job Title"
                     ControlSource ="Job Title"
                     EventProcPrefix ="Job_Title"
-                    GUID = Begin
-                        0xe771eada1077c94896b1b26c1267ab91
-                    End
-                    RowGroup =10
                     GroupTable =29
                     TopPadding =23
-                    BottomPadding =23
+                    RightPadding =38
+                    BottomPadding =31
                     HorizontalAnchor =1
-                    IMEMode =0
+
+                    LayoutCachedLeft =2535
+                    LayoutCachedTop =2490
+                    LayoutCachedWidth =6405
+                    LayoutCachedHeight =2805
+                    RowStart =6
+                    RowEnd =6
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =29
                     Begin
                         Begin Label
-                            OverlapFlags =85
                             Left =960
-                            Top =2496
+                            Top =2490
                             Width =1515
                             Height =315
                             Name ="Job Title_Label"
                             Caption ="Job Title"
                             Tag =";RegenerateCaption;"
                             EventProcPrefix ="Job_Title_Label"
-                            GUID = Begin
-                                0xb0bce7875613bb4bb0953ee2b0c7c27b
-                            End
-                            RowGroup =10
                             GroupTable =29
                             TopPadding =23
-                            BottomPadding =23
+                            BottomPadding =31
                             HorizontalAnchor =1
+                            LayoutCachedLeft =960
+                            LayoutCachedTop =2490
+                            LayoutCachedWidth =2475
+                            LayoutCachedHeight =2805
+                            RowStart =6
+                            RowEnd =6
+                            LayoutGroup =2
+                            GroupTable =29
                         End
                     End
                 End
                 Begin TextBox
-                    OverlapFlags =85
                     IMEMode =2
                     Left =2535
-                    Top =1368
+                    Top =1365
                     Width =3870
                     Height =315
-                    ColumnWidth =2955
+                    ColumnWidth =1935
                     ColumnOrder =3
                     TabIndex =3
                     Name ="E-mail Address"
                     ControlSource ="E-mail Address"
                     Tag ="EmailField"
                     EventProcPrefix ="E_mail_Address"
-                    GUID = Begin
-                        0x4e387e747293bc4597a48a20a5836ef3
-                    End
-                    RowGroup =7
                     GroupTable =29
                     TopPadding =23
-                    BottomPadding =23
+                    RightPadding =38
+                    BottomPadding =31
                     HorizontalAnchor =1
                     OnDblClickEmMacro = Begin
                         Version =196611
@@ -1525,34 +1338,62 @@ Begin Form
                             Argument =""
                             Argument ="-1"
                         End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"E-mail Address\" xmlns=\"http://schemas.microsoft.com/office"
+                                "/accessservices/2009/11/application\" xmlns:a=\"http://schemas.microsoft.com/off"
+                                "ice/accessservices/2009/11/for"
+                        End
+                        Begin
+                            Comment ="_AXL:ms\"><Statements><Action Name=\"OnError\"/><ConditionalBlock><If><Condition"
+                                ">Not IsNull([Screen].[ActiveControl])</Condition><Statements><Action Name=\"EMai"
+                                "lDatabaseObject\"><Argument Name=\"To\">=[Screen].[ActiveControl]</Argument></Ac"
+                                "tion></Statements></"
+                        End
+                        Begin
+                            Comment ="_AXL:If></ConditionalBlock></Statements></UserInterfaceMacro>"
+                        End
                     End
+
+                    LayoutCachedLeft =2535
+                    LayoutCachedTop =1365
+                    LayoutCachedWidth =6405
+                    LayoutCachedHeight =1680
+                    RowStart =3
+                    RowEnd =3
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =29
                     Begin
                         Begin Label
-                            OverlapFlags =85
                             Left =960
-                            Top =1368
+                            Top =1365
                             Width =1515
                             Height =315
                             Name ="E-mail Address_Label"
                             Caption ="E-mail Address"
                             Tag =";RegenerateCaption;"
                             EventProcPrefix ="E_mail_Address_Label"
-                            GUID = Begin
-                                0x2e6e535dba1af44bac1dcf0e288a72ea
-                            End
-                            RowGroup =7
                             GroupTable =29
                             TopPadding =23
-                            BottomPadding =23
+                            BottomPadding =31
                             HorizontalAnchor =1
+                            LayoutCachedLeft =960
+                            LayoutCachedTop =1365
+                            LayoutCachedWidth =2475
+                            LayoutCachedHeight =1680
+                            RowStart =3
+                            RowEnd =3
+                            LayoutGroup =2
+                            GroupTable =29
                         End
                     End
                 End
                 Begin TextBox
-                    OverlapFlags =85
                     IMEMode =2
                     Left =2535
-                    Top =1744
+                    Top =1740
                     Width =3870
                     Height =315
                     ColumnWidth =2130
@@ -1561,42 +1402,52 @@ Begin Form
                     Name ="Business Phone"
                     ControlSource ="Business Phone"
                     EventProcPrefix ="Business_Phone"
-                    GUID = Begin
-                        0xc0b4d1e3d0cead458476845b95b5a6d5
-                    End
-                    RowGroup =8
                     GroupTable =29
                     TopPadding =23
-                    BottomPadding =23
+                    RightPadding =38
+                    BottomPadding =31
                     HorizontalAnchor =1
+
+                    LayoutCachedLeft =2535
+                    LayoutCachedTop =1740
+                    LayoutCachedWidth =6405
+                    LayoutCachedHeight =2055
+                    RowStart =4
+                    RowEnd =4
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =29
                     Begin
                         Begin Label
-                            OverlapFlags =85
                             Left =960
-                            Top =1744
+                            Top =1740
                             Width =1515
                             Height =315
                             Name ="Business Phone_Label"
                             Caption ="Business Phone"
                             Tag =";RegenerateCaption;"
                             EventProcPrefix ="Business_Phone_Label"
-                            GUID = Begin
-                                0x7313099714fcb14f858cb72b79b09fbb
-                            End
-                            RowGroup =8
                             GroupTable =29
                             TopPadding =23
-                            BottomPadding =23
+                            BottomPadding =31
                             HorizontalAnchor =1
+                            LayoutCachedLeft =960
+                            LayoutCachedTop =1740
+                            LayoutCachedWidth =2475
+                            LayoutCachedHeight =2055
+                            RowStart =4
+                            RowEnd =4
+                            LayoutGroup =2
+                            GroupTable =29
                         End
                     End
                 End
                 Begin TextBox
                     ColumnHidden = NotDefault
-                    OverlapFlags =85
                     IMEMode =2
                     Left =2535
-                    Top =2872
+                    Top =2865
                     Width =3870
                     Height =315
                     ColumnOrder =5
@@ -1604,42 +1455,52 @@ Begin Form
                     Name ="Home Phone"
                     ControlSource ="Home Phone"
                     EventProcPrefix ="Home_Phone"
-                    GUID = Begin
-                        0xdd84cd75b66b2045b5e6c03870243b2e
-                    End
-                    RowGroup =11
                     GroupTable =29
                     TopPadding =23
-                    BottomPadding =23
+                    RightPadding =38
+                    BottomPadding =31
                     HorizontalAnchor =1
+
+                    LayoutCachedLeft =2535
+                    LayoutCachedTop =2865
+                    LayoutCachedWidth =6405
+                    LayoutCachedHeight =3180
+                    RowStart =7
+                    RowEnd =7
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =29
                     Begin
                         Begin Label
-                            OverlapFlags =85
                             Left =960
-                            Top =2872
+                            Top =2865
                             Width =1515
                             Height =315
                             Name ="Home Phone_Label"
                             Caption ="Home Phone"
                             Tag =";RegenerateCaption;"
                             EventProcPrefix ="Home_Phone_Label"
-                            GUID = Begin
-                                0xa22ee8a84f0e7248aa158326e3a8bca2
-                            End
-                            RowGroup =11
                             GroupTable =29
                             TopPadding =23
-                            BottomPadding =23
+                            BottomPadding =31
                             HorizontalAnchor =1
+                            LayoutCachedLeft =960
+                            LayoutCachedTop =2865
+                            LayoutCachedWidth =2475
+                            LayoutCachedHeight =3180
+                            RowStart =7
+                            RowEnd =7
+                            LayoutGroup =2
+                            GroupTable =29
                         End
                     End
                 End
                 Begin TextBox
                     ColumnHidden = NotDefault
-                    OverlapFlags =85
                     IMEMode =2
                     Left =2535
-                    Top =3248
+                    Top =3240
                     Width =3870
                     Height =315
                     ColumnOrder =6
@@ -1647,42 +1508,52 @@ Begin Form
                     Name ="Mobile Phone"
                     ControlSource ="Mobile Phone"
                     EventProcPrefix ="Mobile_Phone"
-                    GUID = Begin
-                        0x994f993b0675184ea8ae5795e2e39d19
-                    End
-                    RowGroup =12
                     GroupTable =29
                     TopPadding =23
-                    BottomPadding =23
+                    RightPadding =38
+                    BottomPadding =31
                     HorizontalAnchor =1
+
+                    LayoutCachedLeft =2535
+                    LayoutCachedTop =3240
+                    LayoutCachedWidth =6405
+                    LayoutCachedHeight =3555
+                    RowStart =8
+                    RowEnd =8
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =29
                     Begin
                         Begin Label
-                            OverlapFlags =85
                             Left =960
-                            Top =3248
+                            Top =3240
                             Width =1515
                             Height =315
                             Name ="Mobile Phone_Label"
                             Caption ="Mobile Phone"
                             Tag =";RegenerateCaption;"
                             EventProcPrefix ="Mobile_Phone_Label"
-                            GUID = Begin
-                                0xe73518ce9e99834aae58bdc1ea154903
-                            End
-                            RowGroup =12
                             GroupTable =29
                             TopPadding =23
-                            BottomPadding =23
+                            BottomPadding =31
                             HorizontalAnchor =1
+                            LayoutCachedLeft =960
+                            LayoutCachedTop =3240
+                            LayoutCachedWidth =2475
+                            LayoutCachedHeight =3555
+                            RowStart =8
+                            RowEnd =8
+                            LayoutGroup =2
+                            GroupTable =29
                         End
                     End
                 End
                 Begin TextBox
                     ColumnHidden = NotDefault
-                    OverlapFlags =85
                     IMEMode =2
                     Left =2535
-                    Top =3624
+                    Top =3615
                     Width =3870
                     Height =315
                     ColumnOrder =7
@@ -1690,33 +1561,44 @@ Begin Form
                     Name ="Fax Number"
                     ControlSource ="Fax Number"
                     EventProcPrefix ="Fax_Number"
-                    GUID = Begin
-                        0xc3d8e71f095ae14189324c70a89dde2c
-                    End
-                    RowGroup =13
                     GroupTable =29
                     TopPadding =23
-                    BottomPadding =23
+                    RightPadding =38
+                    BottomPadding =31
                     HorizontalAnchor =1
+
+                    LayoutCachedLeft =2535
+                    LayoutCachedTop =3615
+                    LayoutCachedWidth =6405
+                    LayoutCachedHeight =3930
+                    RowStart =9
+                    RowEnd =9
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =29
                     Begin
                         Begin Label
-                            OverlapFlags =85
                             Left =960
-                            Top =3624
+                            Top =3615
                             Width =1515
                             Height =315
                             Name ="Fax Number_Label"
                             Caption ="Fax Number"
                             Tag =";RegenerateCaption;"
                             EventProcPrefix ="Fax_Number_Label"
-                            GUID = Begin
-                                0x336addd477f15a4a9ecdaf531faebebb
-                            End
-                            RowGroup =13
                             GroupTable =29
                             TopPadding =23
-                            BottomPadding =23
+                            BottomPadding =31
                             HorizontalAnchor =1
+                            LayoutCachedLeft =960
+                            LayoutCachedTop =3615
+                            LayoutCachedWidth =2475
+                            LayoutCachedHeight =3930
+                            RowStart =9
+                            RowEnd =9
+                            LayoutGroup =2
+                            GroupTable =29
                         End
                     End
                 End
@@ -1724,41 +1606,52 @@ Begin Form
                     ColumnHidden = NotDefault
                     EnterKeyBehavior = NotDefault
                     ScrollBars =2
-                    OverlapFlags =85
                     Left =2535
-                    Top =6242
+                    Top =6240
                     Width =3870
                     Height =3285
                     ColumnOrder =8
                     TabIndex =15
                     Name ="Notes"
                     ControlSource ="Notes"
-                    GUID = Begin
-                        0x1ea61f3c70a01d47ab5563bb0acee454
-                    End
-                    RowGroup =19
                     GroupTable =29
+                    RightPadding =38
+                    BottomPadding =38
                     TextFormat =1
                     HorizontalAnchor =1
                     VerticalAnchor =2
-                    IMEMode =0
+
+                    LayoutCachedLeft =2535
+                    LayoutCachedTop =6240
+                    LayoutCachedWidth =6405
+                    LayoutCachedHeight =9525
+                    RowStart =15
+                    RowEnd =15
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =29
                     Begin
                         Begin Label
-                            OverlapFlags =85
                             Left =960
-                            Top =6242
+                            Top =6240
                             Width =1515
                             Height =3285
                             Name ="Notes_Label"
                             Caption ="Notes"
                             Tag =";RegenerateCaption;"
-                            GUID = Begin
-                                0xa78401ca3959464aa795efcdae197541
-                            End
-                            RowGroup =19
                             GroupTable =29
+                            BottomPadding =38
                             HorizontalAnchor =1
                             VerticalAnchor =2
+                            LayoutCachedLeft =960
+                            LayoutCachedTop =6240
+                            LayoutCachedWidth =2475
+                            LayoutCachedHeight =9525
+                            RowStart =15
+                            RowEnd =15
+                            LayoutGroup =2
+                            GroupTable =29
                         End
                     End
                 End
@@ -1766,83 +1659,104 @@ Begin Form
                     ColumnHidden = NotDefault
                     EnterKeyBehavior = NotDefault
                     ScrollBars =2
-                    OverlapFlags =85
                     Left =2535
-                    Top =4007
+                    Top =4005
                     Width =3870
                     Height =600
                     ColumnOrder =9
                     TabIndex =10
                     Name ="Address"
                     ControlSource ="Address"
-                    GUID = Begin
-                        0xd8f45b5c9b8f9b488dbe3ea75d8ee3b5
-                    End
-                    RowGroup =14
                     GroupTable =29
+                    RightPadding =38
+                    BottomPadding =38
                     HorizontalAnchor =1
-                    IMEMode =0
+
+                    LayoutCachedLeft =2535
+                    LayoutCachedTop =4005
+                    LayoutCachedWidth =6405
+                    LayoutCachedHeight =4605
+                    RowStart =10
+                    RowEnd =10
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =29
                     Begin
                         Begin Label
-                            OverlapFlags =85
                             Left =960
-                            Top =4007
+                            Top =4005
                             Width =1515
                             Height =600
                             Name ="Address_Label"
                             Caption ="Address"
                             Tag =";RegenerateCaption;"
-                            GUID = Begin
-                                0xe4a6b646d3f4b7449836527ac12c5cab
-                            End
-                            RowGroup =14
                             GroupTable =29
+                            BottomPadding =38
                             HorizontalAnchor =1
+                            LayoutCachedLeft =960
+                            LayoutCachedTop =4005
+                            LayoutCachedWidth =2475
+                            LayoutCachedHeight =4605
+                            RowStart =10
+                            RowEnd =10
+                            LayoutGroup =2
+                            GroupTable =29
                         End
                     End
                 End
                 Begin TextBox
                     ColumnHidden = NotDefault
-                    OverlapFlags =85
                     Left =2535
-                    Top =4682
+                    Top =4680
                     Width =3870
                     Height =315
                     ColumnOrder =10
                     TabIndex =11
                     Name ="City"
                     ControlSource ="City"
-                    GUID = Begin
-                        0x68c0040530dfb04393d80d7bb5b6505c
-                    End
-                    RowGroup =15
                     GroupTable =29
+                    RightPadding =38
+                    BottomPadding =38
                     HorizontalAnchor =1
-                    IMEMode =0
+
+                    LayoutCachedLeft =2535
+                    LayoutCachedTop =4680
+                    LayoutCachedWidth =6405
+                    LayoutCachedHeight =4995
+                    RowStart =11
+                    RowEnd =11
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =29
                     Begin
                         Begin Label
-                            OverlapFlags =85
                             Left =960
-                            Top =4682
+                            Top =4680
                             Width =1515
                             Height =315
                             Name ="City_Label"
                             Caption ="City"
                             Tag =";RegenerateCaption;"
-                            GUID = Begin
-                                0xf05e35ebe0487f468feb133263753f69
-                            End
-                            RowGroup =15
                             GroupTable =29
+                            BottomPadding =38
                             HorizontalAnchor =1
+                            LayoutCachedLeft =960
+                            LayoutCachedTop =4680
+                            LayoutCachedWidth =2475
+                            LayoutCachedHeight =4995
+                            RowStart =11
+                            RowEnd =11
+                            LayoutGroup =2
+                            GroupTable =29
                         End
                     End
                 End
                 Begin TextBox
                     ColumnHidden = NotDefault
-                    OverlapFlags =85
                     Left =2535
-                    Top =5072
+                    Top =5070
                     Width =3870
                     Height =315
                     ColumnOrder =11
@@ -1850,39 +1764,50 @@ Begin Form
                     Name ="State/Province"
                     ControlSource ="State/Province"
                     EventProcPrefix ="State_Province"
-                    GUID = Begin
-                        0x9c1ff02cbc6e8c45b5bf5ea3822eae05
-                    End
-                    RowGroup =16
                     GroupTable =29
+                    RightPadding =38
+                    BottomPadding =38
                     HorizontalAnchor =1
-                    IMEMode =0
+
+                    LayoutCachedLeft =2535
+                    LayoutCachedTop =5070
+                    LayoutCachedWidth =6405
+                    LayoutCachedHeight =5385
+                    RowStart =12
+                    RowEnd =12
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =29
                     Begin
                         Begin Label
-                            OverlapFlags =85
                             Left =960
-                            Top =5072
+                            Top =5070
                             Width =1515
                             Height =315
                             Name ="State/Province_Label"
                             Caption ="State/Province"
                             Tag =";RegenerateCaption;"
                             EventProcPrefix ="State_Province_Label"
-                            GUID = Begin
-                                0xb0e1b34aae917a48838942c888515562
-                            End
-                            RowGroup =16
                             GroupTable =29
+                            BottomPadding =38
                             HorizontalAnchor =1
+                            LayoutCachedLeft =960
+                            LayoutCachedTop =5070
+                            LayoutCachedWidth =2475
+                            LayoutCachedHeight =5385
+                            RowStart =12
+                            RowEnd =12
+                            LayoutGroup =2
+                            GroupTable =29
                         End
                     End
                 End
                 Begin TextBox
                     ColumnHidden = NotDefault
-                    OverlapFlags =85
                     IMEMode =2
                     Left =2535
-                    Top =5462
+                    Top =5460
                     Width =3870
                     Height =315
                     ColumnOrder =12
@@ -1890,37 +1815,49 @@ Begin Form
                     Name ="ZIP/Postal Code"
                     ControlSource ="ZIP/Postal Code"
                     EventProcPrefix ="ZIP_Postal_Code"
-                    GUID = Begin
-                        0xf059d4274a2e264f9497d082d5be019e
-                    End
-                    RowGroup =17
                     GroupTable =29
+                    RightPadding =38
+                    BottomPadding =38
                     HorizontalAnchor =1
+
+                    LayoutCachedLeft =2535
+                    LayoutCachedTop =5460
+                    LayoutCachedWidth =6405
+                    LayoutCachedHeight =5775
+                    RowStart =13
+                    RowEnd =13
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =29
                     Begin
                         Begin Label
-                            OverlapFlags =85
                             Left =960
-                            Top =5462
+                            Top =5460
                             Width =1515
                             Height =315
                             Name ="ZIP/Postal Code_Label"
                             Caption ="Zip/Postal Code"
                             Tag =";RegenerateCaption;"
                             EventProcPrefix ="ZIP_Postal_Code_Label"
-                            GUID = Begin
-                                0x05c7ed43c99e6d4ebed371ae942a06a3
-                            End
-                            RowGroup =17
                             GroupTable =29
+                            BottomPadding =38
                             HorizontalAnchor =1
+                            LayoutCachedLeft =960
+                            LayoutCachedTop =5460
+                            LayoutCachedWidth =2475
+                            LayoutCachedHeight =5775
+                            RowStart =13
+                            RowEnd =13
+                            LayoutGroup =2
+                            GroupTable =29
                         End
                     End
                 End
                 Begin TextBox
                     ColumnHidden = NotDefault
-                    OverlapFlags =85
                     Left =2535
-                    Top =5852
+                    Top =5850
                     Width =3870
                     Height =315
                     ColumnWidth =1365
@@ -1929,101 +1866,129 @@ Begin Form
                     Name ="Country/Region"
                     ControlSource ="Country/Region"
                     EventProcPrefix ="Country_Region"
-                    GUID = Begin
-                        0x1385dad78f7d5745b83b8e58b316afa9
-                    End
-                    RowGroup =18
                     GroupTable =29
+                    RightPadding =38
+                    BottomPadding =38
                     HorizontalAnchor =1
-                    IMEMode =0
+
+                    LayoutCachedLeft =2535
+                    LayoutCachedTop =5850
+                    LayoutCachedWidth =6405
+                    LayoutCachedHeight =6165
+                    RowStart =14
+                    RowEnd =14
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =29
                     Begin
                         Begin Label
-                            OverlapFlags =85
                             Left =960
-                            Top =5852
+                            Top =5850
                             Width =1515
                             Height =315
                             Name ="Country/Region_Label"
                             Caption ="Country/Region"
                             Tag =";RegenerateCaption;"
                             EventProcPrefix ="Country_Region_Label"
-                            GUID = Begin
-                                0xaf8df12d70cb27448728853435ee0d44
-                            End
-                            RowGroup =18
                             GroupTable =29
+                            BottomPadding =38
                             HorizontalAnchor =1
+                            LayoutCachedLeft =960
+                            LayoutCachedTop =5850
+                            LayoutCachedWidth =2475
+                            LayoutCachedHeight =6165
+                            RowStart =14
+                            RowEnd =14
+                            LayoutGroup =2
+                            GroupTable =29
                         End
                     End
                 End
                 Begin Label
                     Visible = NotDefault
-                    OverlapFlags =85
                     Left =240
                     Width =1305
                     Height =60
                     Name ="cmdNewEmployee_LayoutLabel"
                     Tag =";DoNotResize;"
                     EventProcPrefix ="cmdNew_Contact_LayoutLabel"
-                    GUID = Begin
-                        0x6de8850b30b7a647a3a4edfe00f5ae2e
-                    End
-                    ColumnGroup =1
                     GroupTable =28
                     TopPadding =0
+                    RightPadding =38
                     BottomPadding =0
+                    LayoutCachedLeft =240
+                    LayoutCachedWidth =1545
+                    LayoutCachedHeight =60
+                    RowStart =1
+                    RowEnd =1
+                    LayoutGroup =1
+                    GroupTable =28
                 End
                 Begin Label
                     Visible = NotDefault
-                    OverlapFlags =85
-                    Left =3525
+                    Left =3555
                     Width =1635
                     Height =60
                     Name ="cmdAddFromOutlook_LayoutLabel"
                     Tag =";DoNotResize;"
-                    GUID = Begin
-                        0xc1b4a835f97e3f49bad0936e1947606e
-                    End
-                    ColumnGroup =2
                     GroupTable =28
                     TopPadding =0
+                    RightPadding =38
                     BottomPadding =0
+                    LayoutCachedLeft =3555
+                    LayoutCachedWidth =5190
+                    LayoutCachedHeight =60
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    GroupTable =28
                 End
                 Begin Label
                     Visible = NotDefault
-                    OverlapFlags =85
-                    Left =5220
+                    Left =5265
                     Width =975
                     Height =60
                     Name ="cmdEmailList_LayoutLabel"
                     Tag =";DoNotResize;"
-                    GUID = Begin
-                        0x3c6de22d8af3aa41b3d90a54faad6f74
-                    End
-                    ColumnGroup =3
                     GroupTable =28
                     TopPadding =0
+                    RightPadding =38
                     BottomPadding =0
+                    LayoutCachedLeft =5265
+                    LayoutCachedWidth =6240
+                    LayoutCachedHeight =60
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =28
                 End
                 Begin Label
                     Visible = NotDefault
-                    OverlapFlags =85
-                    Left =1605
+                    Left =1620
                     Width =1860
                     Height =60
                     Name ="cmdCollectDataviaEmail_LayoutLabel"
                     Tag =";DoNotResize;"
-                    GUID = Begin
-                        0x9104702b3c91a84c85783538265ecf09
-                    End
-                    ColumnGroup =4
                     GroupTable =28
                     TopPadding =0
+                    RightPadding =38
                     BottomPadding =0
-                    VerticalAnchor =1
+                    LayoutCachedLeft =1620
+                    LayoutCachedWidth =3480
+                    LayoutCachedHeight =60
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =28
                 End
                 Begin TextBox
-                    OverlapFlags =85
                     IMESentenceMode =3
                     Left =2535
                     Top =240
@@ -2035,13 +2000,10 @@ Begin Form
                     Name ="ID"
                     ControlSource ="ID"
                     Tag ="HyperlinkToDetails~FormName=Employee Details~SourceID=ID"
-                    GUID = Begin
-                        0xe3408da8b1a581488d7f42a0802b145a
-                    End
-                    RowGroup =20
                     GroupTable =29
                     TopPadding =23
-                    BottomPadding =23
+                    RightPadding =38
+                    BottomPadding =31
                     HorizontalAnchor =1
                     OnClickEmMacro = Begin
                         Version =196611
@@ -2069,8 +2031,6 @@ Begin Form
                         Begin
                             Action ="OnError"
                             Argument ="2"
-                        End
-                        Begin
                         End
                         Begin
                             Action ="OpenForm"
@@ -2107,12 +2067,60 @@ Begin Form
                             Action ="RemoveTempVar"
                             Argument ="CurrentID"
                         End
+                        Begin
+                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+                                "nterfaceMacro For=\"ID\" xmlns=\"http://schemas.microsoft.com/office/accessservi"
+                                "ces/2009/11/application\" xmlns:a=\"http://schemas.microsoft.com/office/accessse"
+                                "rvices/2009/11/forms\"><Stateme"
+                        End
+                        Begin
+                            Comment ="_AXL:nts><Action Name=\"OnError\"/><ConditionalBlock><If><Condition>[Form].[Dirt"
+                                "y]</Condition><Statements><Action Name=\"SaveRecord\"/></Statements></If></Condi"
+                                "tionalBlock><ConditionalBlock><If><Condition>[MacroError].[Number]&lt;&gt;0</Con"
+                                "dition><Statement"
+                        End
+                        Begin
+                            Comment ="_AXL:s><Action Name=\"MessageBox\"><Argument Name=\"Message\">=[MacroError].[Des"
+                                "cription]</Argument></Action><Action Name=\"StopMacro\"/></Statements></If></Con"
+                                "ditionalBlock><Action Name=\"OnError\"><Argument Name=\"Goto\">Fail</Argument></"
+                                "Action><Action Name=\"Op"
+                        End
+                        Begin
+                            Comment ="_AXL:enForm\"><Argument Name=\"FormName\">Employee Details</Argument><Argument N"
+                                "ame=\"WhereCondition\">=\"[ID]=\" &amp; Nz([ID],0)</Argument><Argument Name=\"Wi"
+                                "ndowMode\">Dialog</Argument></Action><ConditionalBlock><If><Condition>Not IsNull"
+                                "([ID])</Condition><Sta"
+                        End
+                        Begin
+                            Comment ="_AXL:tements><Action Name=\"SetTempVar\"><Argument Name=\"Name\">CurrentID</Argu"
+                                "ment><Argument Name=\"Expression\">[ID]</Argument></Action></Statements></If></C"
+                                "onditionalBlock><ConditionalBlock><If><Condition>IsNull([ID])</Condition><Statem"
+                                "ents><Action Name=\""
+                        End
+                        Begin
+                            Comment ="_AXL:SetTempVar\"><Argument Name=\"Name\">CurrentID</Argument><Argument Name=\"E"
+                                "xpression\">Nz(DMax(\"[ID]\",[Form].[RecordSource]),0)</Argument></Action></Stat"
+                                "ements></If></ConditionalBlock><Action Name=\"Requery\"/><Action Name=\"SearchFo"
+                                "rRecord\"><Argument Name"
+                        End
+                        Begin
+                            Comment ="_AXL:=\"WhereCondition\">=\"[ID]=\" &amp; [TempVars]![CurrentID]</Argument></Act"
+                                "ion><Action Name=\"RemoveTempVar\"><Argument Name=\"Name\">CurrentID</Argument><"
+                                "/Action></Statements></UserInterfaceMacro>"
+                        End
                     End
+
+                    LayoutCachedLeft =2535
+                    LayoutCachedTop =240
+                    LayoutCachedWidth =6405
+                    LayoutCachedHeight =555
                     DisplayAsHyperlink =2
-                    IMEMode =0
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =29
                     Begin
                         Begin Label
-                            OverlapFlags =85
                             Left =960
                             Top =240
                             Width =1515
@@ -2120,65 +2128,82 @@ Begin Form
                             Name ="ID_Label"
                             Caption ="ID"
                             Tag =";RegenerateCaption;"
-                            GUID = Begin
-                                0x55d9fcebae76134e9022046779fa631e
-                            End
-                            RowGroup =20
                             GroupTable =29
                             TopPadding =23
-                            BottomPadding =23
+                            BottomPadding =31
                             HorizontalAnchor =1
+                            LayoutCachedLeft =960
+                            LayoutCachedTop =240
+                            LayoutCachedWidth =2475
+                            LayoutCachedHeight =555
+                            LayoutGroup =2
+                            GroupTable =29
                         End
                     End
                 End
                 Begin Label
                     Visible = NotDefault
-                    OverlapFlags =85
-                    Left =6255
+                    OverlapFlags =4
+                    Left =6315
                     Width =825
                     Height =60
                     Name ="cboReports_Label_LayoutLabel"
                     Tag =";DoNotResize;"
-                    GUID = Begin
-                        0xafbf34c59998d44a9b5d8b3c9c9464e0
-                    End
-                    ColumnGroup =21
                     GroupTable =28
                     TopPadding =0
                     BottomPadding =0
+                    LayoutCachedLeft =6315
+                    LayoutCachedWidth =7140
+                    LayoutCachedHeight =60
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =4
+                    ColumnEnd =4
+                    LayoutGroup =1
+                    GroupTable =28
                 End
                 Begin Label
                     Visible = NotDefault
-                    OverlapFlags =85
-                    Left =7147
+                    OverlapFlags =4
+                    Left =7200
                     Width =1440
                     Height =60
                     Name ="CboReports_LayoutLabel"
                     Tag =";DoNotResize;"
-                    GUID = Begin
-                        0x39cb8c6433ecb940ab5fca4c9763d314
-                    End
-                    ColumnGroup =22
                     GroupTable =28
                     TopPadding =0
+                    RightPadding =38
                     BottomPadding =0
+                    LayoutCachedLeft =7200
+                    LayoutCachedWidth =8640
+                    LayoutCachedHeight =60
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =5
+                    ColumnEnd =5
+                    LayoutGroup =1
+                    GroupTable =28
                 End
                 Begin Label
                     Visible = NotDefault
-                    OverlapFlags =85
+                    OverlapFlags =4
                     Left =9720
                     Width =780
                     Height =60
                     Name ="cmdHome_LayoutLabel"
                     Tag =";DoNotResize;"
-                    GUID = Begin
-                        0x5eccdc20a2170b43a387c0747e0a4e1e
-                    End
-                    ColumnGroup =23
                     GroupTable =30
                     TopPadding =0
+                    RightPadding =38
                     BottomPadding =0
                     HorizontalAnchor =1
+                    LayoutCachedLeft =9720
+                    LayoutCachedWidth =10500
+                    LayoutCachedHeight =60
+                    RowStart =1
+                    RowEnd =1
+                    LayoutGroup =3
+                    GroupTable =30
                 End
             End
         End
@@ -2186,9 +2211,6 @@ Begin Form
             Height =0
             BackColor =14870503
             Name ="FormFooter"
-            GUID = Begin
-                0x10300f15bdb9d9419a289bf669b619ea
-            End
         End
     End
 End
