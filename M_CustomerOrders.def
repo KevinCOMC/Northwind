@@ -15,14 +15,14 @@ Function CreateInvoice(OrderID As Long, Amt As Currency, InvoiceID As Long) As B
 20            With rsw.Recordset
 30                If Not rsw.AddNew Then Exit Function
 40                ![Order ID] = OrderID
-50                ![Amount Due] = Amt
-60                If rsw.Update Then
-70                    .Bookmark = .LastModified
-80                    InvoiceID = ![Invoice ID]
-90                    CreateInvoice = True
-100               End If
-110           End With
-120       End If
+                  '![Amount Due] = Amt
+50                If rsw.Update Then
+60                    .Bookmark = .LastModified
+70                    InvoiceID = ![Invoice ID]
+80                    CreateInvoice = False
+90                End If
+100           End With
+110       End If
 End Function
 
 
