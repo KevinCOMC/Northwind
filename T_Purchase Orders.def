@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TableDef name="Purchase Orders" foreign="False">
+  <Properties>
+    <SubdatasheetName type="10" value="Table.Purchase Order Details"/>
+  </Properties>
+  <SQL>CREATE TABLE [Purchase Orders] (
+[Purchase Order ID] AUTOINCREMENT,
+[Supplier ID] LONG,
+[Created By] LONG,
+[Submitted Date] DATETIME,
+[Creation Date] DATETIME DEFAULT Now(),
+[Status ID] LONG DEFAULT 0,
+[Expected Date] DATETIME,
+[Shipping Fee] CURRENCY NOT NULL DEFAULT 0,
+[Taxes] CURRENCY NOT NULL DEFAULT 0,
+[Payment Date] DATETIME,
+[Payment Amount] CURRENCY DEFAULT 0,
+[Payment Method] TEXT (50),
+[Notes] MEMO,
+[Approved By] LONG,
+[Approved Date] DATETIME,
+[Submitted By] LONG);</SQL>
+  <Attributes value="0">
+    <dbHiddenObject value="False"/>
+    <dbAttachExclusive value="False"/>
+    <dbAttachSavePWD value="False"/>
+    <dbAttachedODBC value="False"/>
+    <dbAttachedTable value="False"/>
+    <dbSystemObject value="False"/>
+  </Attributes>
+  <FieldDefs>
+    <Field_0 name="Purchase Order ID">
+      <Value name="Value" type="4"/>
+      <Attributes name="Attributes" type="4" value="18"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
+      <Type name="Type" type="3" value="4"/>
+      <Name name="Name" type="12" value="Purchase Order ID"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="0"/>
+      <Size name="Size" type="4" value="4"/>
+      <SourceField name="SourceField" type="12" value="Purchase Order ID"/>
+      <SourceTable name="SourceTable" type="12" value="Purchase Orders"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="4"/>
+      <VisibleValue name="VisibleValue" type="4"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="2055"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="1"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="False"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+    </Field_0>
+    <Field_1 name="Supplier ID">
+      <Value name="Value" type="4"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
+      <Type name="Type" type="3" value="4"/>
+      <Name name="Name" type="12" value="Supplier ID"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="1"/>
+      <Size name="Size" type="4" value="4"/>
+      <SourceField name="SourceField" type="12" value="Supplier ID"/>
+      <SourceTable name="SourceTable" type="12" value="Purchase Orders"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="4"/>
+      <VisibleValue name="VisibleValue" type="4"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="-1"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <DecimalPlaces name="DecimalPlaces" type="2" value="255"/>
+      <DisplayControl name="DisplayControl" type="3" value="111"/>
+      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
+      <RowSource name="RowSource" type="12" value="SELECT [ID], [Company] FROM [Suppliers Extended] ORDER BY [Company];"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="2"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <ColumnWidths name="ColumnWidths" type="10" value="0;1440"/>
+      <ListRows name="ListRows" type="3" value="16"/>
+      <ListWidth name="ListWidth" type="10" value="1440twip"/>
+      <LimitToList name="LimitToList" type="1" value="True"/>
+      <AllowMultipleValues name="AllowMultipleValues" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="True"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <ListItemsEditForm name="ListItemsEditForm" type="12" value="Supplier Details"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+    </Field_1>
+    <Field_2 name="Created By">
+      <Value name="Value" type="4"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
+      <Type name="Type" type="3" value="4"/>
+      <Name name="Name" type="12" value="Created By"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="2"/>
+      <Size name="Size" type="4" value="4"/>
+      <SourceField name="SourceField" type="12" value="Created By"/>
+      <SourceTable name="SourceTable" type="12" value="Purchase Orders"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="4"/>
+      <VisibleValue name="VisibleValue" type="4"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="-1"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <DecimalPlaces name="DecimalPlaces" type="2" value="255"/>
+      <DisplayControl name="DisplayControl" type="3" value="111"/>
+      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
+      <RowSource name="RowSource" type="12" value="SELECT ID, [Employee Name] FROM [Employees Extended] ORDER BY [Employee Name];"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="2"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <ColumnWidths name="ColumnWidths" type="10" value="0;1440"/>
+      <ListRows name="ListRows" type="3" value="16"/>
+      <ListWidth name="ListWidth" type="10" value="1440twip"/>
+      <LimitToList name="LimitToList" type="1" value="True"/>
+      <AllowMultipleValues name="AllowMultipleValues" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="True"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+      <WSSFieldID name="WSSFieldID" type="10" value="Author"/>
+      <ListItemsEditForm name="ListItemsEditForm" type="12" value="Employee Details"/>
+    </Field_2>
+    <Field_3 name="Submitted Date">
+      <Value name="Value" type="8"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
+      <Type name="Type" type="3" value="8"/>
+      <Name name="Name" type="12" value="Submitted Date"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="3"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="Submitted Date"/>
+      <SourceTable name="SourceTable" type="12" value="Purchase Orders"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value="&gt;=#1/1/1900#"/>
+      <ValidationText name="ValidationText" type="12" value="Value must be greater than 1/1/1900."/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="8"/>
+      <VisibleValue name="VisibleValue" type="8"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="2250"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <IMEMode name="IMEMode" type="2" value="2"/>
+      <IMESentenceMode name="IMESentenceMode" type="2" value="3"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="1"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="False"/>
+      <ShowDatePicker name="ShowDatePicker" type="3" value="1"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+      <Format name="Format" type="10" value="Short Date"/>
+    </Field_3>
+    <Field_4 name="Creation Date">
+      <Value name="Value" type="8"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
+      <Type name="Type" type="3" value="8"/>
+      <Name name="Name" type="12" value="Creation Date"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="4"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="Creation Date"/>
+      <SourceTable name="SourceTable" type="12" value="Purchase Orders"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value="Now()"/>
+      <ValidationRule name="ValidationRule" type="12" value="&gt;=#1/1/1900#"/>
+      <ValidationText name="ValidationText" type="12" value="Value must be greater than 1/1/1900."/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="8"/>
+      <VisibleValue name="VisibleValue" type="8"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="2250"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <IMEMode name="IMEMode" type="2" value="2"/>
+      <IMESentenceMode name="IMESentenceMode" type="2" value="3"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <Format name="Format" type="10" value="Short Date"/>
+      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="1"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="False"/>
+      <ShowDatePicker name="ShowDatePicker" type="3" value="1"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+    </Field_4>
+    <Field_5 name="Status ID">
+      <Value name="Value" type="4"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
+      <Type name="Type" type="3" value="4"/>
+      <Name name="Name" type="12" value="Status ID"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="5"/>
+      <Size name="Size" type="4" value="4"/>
+      <SourceField name="SourceField" type="12" value="Status ID"/>
+      <SourceTable name="SourceTable" type="12" value="Purchase Orders"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value="0"/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="4"/>
+      <VisibleValue name="VisibleValue" type="4"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="-1"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <DecimalPlaces name="DecimalPlaces" type="2" value="255"/>
+      <DisplayControl name="DisplayControl" type="3" value="111"/>
+      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
+      <RowSource name="RowSource" type="12" value="Purchase Order Status"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="2"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <ListRows name="ListRows" type="3" value="16"/>
+      <ListWidth name="ListWidth" type="10" value="0twip"/>
+      <LimitToList name="LimitToList" type="1" value="True"/>
+      <AllowMultipleValues name="AllowMultipleValues" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="True"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <ColumnWidths name="ColumnWidths" type="10" value="0;1440"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+    </Field_5>
+    <Field_6 name="Expected Date">
+      <Value name="Value" type="8"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
+      <Type name="Type" type="3" value="8"/>
+      <Name name="Name" type="12" value="Expected Date"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="6"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="Expected Date"/>
+      <SourceTable name="SourceTable" type="12" value="Purchase Orders"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value="&gt;=#1/1/1900#"/>
+      <ValidationText name="ValidationText" type="12" value="Value must be greater than 1/1/1900."/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="8"/>
+      <VisibleValue name="VisibleValue" type="8"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="-1"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <IMEMode name="IMEMode" type="2" value="2"/>
+      <IMESentenceMode name="IMESentenceMode" type="2" value="3"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <Format name="Format" type="10" value="Short Date"/>
+      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="1"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="False"/>
+      <ShowDatePicker name="ShowDatePicker" type="3" value="1"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+    </Field_6>
+    <Field_7 name="Shipping Fee">
+      <Value name="Value" type="5"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
+      <Type name="Type" type="3" value="5"/>
+      <Name name="Name" type="12" value="Shipping Fee"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="7"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="Shipping Fee"/>
+      <SourceTable name="SourceTable" type="12" value="Purchase Orders"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value="0"/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="True"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="5"/>
+      <VisibleValue name="VisibleValue" type="5"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="-1"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <Format name="Format" type="10" value="$#,##0.00;($#,##0.00)"/>
+      <DecimalPlaces name="DecimalPlaces" type="2" value="255"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="1"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="False"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+    </Field_7>
+    <Field_8 name="Taxes">
+      <Value name="Value" type="5"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
+      <Type name="Type" type="3" value="5"/>
+      <Name name="Name" type="12" value="Taxes"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="8"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="Taxes"/>
+      <SourceTable name="SourceTable" type="12" value="Purchase Orders"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value="0"/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="True"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="5"/>
+      <VisibleValue name="VisibleValue" type="5"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="-1"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <Format name="Format" type="10" value="$#,##0.00;($#,##0.00)"/>
+      <DecimalPlaces name="DecimalPlaces" type="2" value="255"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="1"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="False"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+    </Field_8>
+    <Field_9 name="Payment Date">
+      <Value name="Value" type="8"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
+      <Type name="Type" type="3" value="8"/>
+      <Name name="Name" type="12" value="Payment Date"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="9"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="Payment Date"/>
+      <SourceTable name="SourceTable" type="12" value="Purchase Orders"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value="&gt;=#1/1/1900#"/>
+      <ValidationText name="ValidationText" type="12" value="Value must be greater than 1/1/1900."/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="8"/>
+      <VisibleValue name="VisibleValue" type="8"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="-1"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <IMEMode name="IMEMode" type="2" value="2"/>
+      <IMESentenceMode name="IMESentenceMode" type="2" value="3"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="1"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="False"/>
+      <ShowDatePicker name="ShowDatePicker" type="3" value="1"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+      <Format name="Format" type="10" value="Short Date"/>
+    </Field_9>
+    <Field_10 name="Payment Amount">
+      <Value name="Value" type="5"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
+      <Type name="Type" type="3" value="5"/>
+      <Name name="Name" type="12" value="Payment Amount"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="10"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="Payment Amount"/>
+      <SourceTable name="SourceTable" type="12" value="Purchase Orders"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value="0"/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="5"/>
+      <VisibleValue name="VisibleValue" type="5"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="-1"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <Format name="Format" type="10" value="$#,##0.00;($#,##0.00)"/>
+      <DecimalPlaces name="DecimalPlaces" type="2" value="255"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="1"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="False"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+    </Field_10>
+    <Field_11 name="Payment Method">
+      <Value name="Value" type="10"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="10"/>
+      <Name name="Name" type="12" value="Payment Method"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="11"/>
+      <Size name="Size" type="4" value="50"/>
+      <SourceField name="SourceField" type="12" value="Payment Method"/>
+      <SourceTable name="SourceTable" type="12" value="Purchase Orders"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="10"/>
+      <VisibleValue name="VisibleValue" type="10"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="-1"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <DisplayControl name="DisplayControl" type="3" value="111"/>
+      <IMEMode name="IMEMode" type="2" value="0"/>
+      <IMESentenceMode name="IMESentenceMode" type="2" value="0"/>
+      <UnicodeCompression name="UnicodeCompression" type="1" value="True"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <RowSourceType name="RowSourceType" type="10" value="Value List"/>
+      <RowSource name="RowSource" type="12" value="Credit Card;Check;Cash"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="1"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <ListRows name="ListRows" type="3" value="16"/>
+      <ListWidth name="ListWidth" type="10" value="0twip"/>
+      <LimitToList name="LimitToList" type="1" value="True"/>
+      <AllowMultipleValues name="AllowMultipleValues" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="True"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+    </Field_11>
+    <Field_12 name="Notes">
+      <Value name="Value" type="12"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="12"/>
+      <Name name="Name" type="12" value="Notes"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="12"/>
+      <Size name="Size" type="4" value="0"/>
+      <SourceField name="SourceField" type="12" value="Notes"/>
+      <SourceTable name="SourceTable" type="12" value="Purchase Orders"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="12"/>
+      <VisibleValue name="VisibleValue" type="12"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="-1"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <IMEMode name="IMEMode" type="2" value="0"/>
+      <IMESentenceMode name="IMESentenceMode" type="2" value="0"/>
+      <UnicodeCompression name="UnicodeCompression" type="1" value="True"/>
+      <TextFormat name="TextFormat" type="2" value="0"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <WSSFieldID name="WSSFieldID" type="10" value="Comments"/>
+      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="1"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="False"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+    </Field_12>
+    <Field_13 name="Approved By">
+      <Value name="Value" type="4"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
+      <Type name="Type" type="3" value="4"/>
+      <Name name="Name" type="12" value="Approved By"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="13"/>
+      <Size name="Size" type="4" value="4"/>
+      <SourceField name="SourceField" type="12" value="Approved By"/>
+      <SourceTable name="SourceTable" type="12" value="Purchase Orders"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="4"/>
+      <VisibleValue name="VisibleValue" type="4"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="-1"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <DecimalPlaces name="DecimalPlaces" type="2" value="255"/>
+      <DisplayControl name="DisplayControl" type="3" value="111"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
+      <RowSource name="RowSource" type="12" value="SELECT ID, [Employee Name] FROM [Employees Extended] ORDER BY [Employee Name];"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="2"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <ListRows name="ListRows" type="3" value="16"/>
+      <ListWidth name="ListWidth" type="10" value="0twip"/>
+      <LimitToList name="LimitToList" type="1" value="True"/>
+      <AllowMultipleValues name="AllowMultipleValues" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="True"/>
+      <ColumnWidths name="ColumnWidths" type="10" value="0;2880"/>
+      <ListItemsEditForm name="ListItemsEditForm" type="12" value="Employee Details"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+    </Field_13>
+    <Field_14 name="Approved Date">
+      <Value name="Value" type="8"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
+      <Type name="Type" type="3" value="8"/>
+      <Name name="Name" type="12" value="Approved Date"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="14"/>
+      <Size name="Size" type="4" value="8"/>
+      <SourceField name="SourceField" type="12" value="Approved Date"/>
+      <SourceTable name="SourceTable" type="12" value="Purchase Orders"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value="&gt;=#1/1/1900#"/>
+      <ValidationText name="ValidationText" type="12" value="Value must be greater than 1/1/1900."/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="8"/>
+      <VisibleValue name="VisibleValue" type="8"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="2145"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <IMEMode name="IMEMode" type="2" value="2"/>
+      <IMESentenceMode name="IMESentenceMode" type="2" value="3"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="1"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="False"/>
+      <ShowDatePicker name="ShowDatePicker" type="3" value="1"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+      <Format name="Format" type="10" value="Short Date"/>
+    </Field_14>
+    <Field_15 name="Submitted By">
+      <Value name="Value" type="4"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
+      <Type name="Type" type="3" value="4"/>
+      <Name name="Name" type="12" value="Submitted By"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="15"/>
+      <Size name="Size" type="4" value="4"/>
+      <SourceField name="SourceField" type="12" value="Submitted By"/>
+      <SourceTable name="SourceTable" type="12" value="Purchase Orders"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="4"/>
+      <VisibleValue name="VisibleValue" type="4"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="-1"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <DecimalPlaces name="DecimalPlaces" type="2" value="255"/>
+      <DisplayControl name="DisplayControl" type="3" value="111"/>
+      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
+      <RowSource name="RowSource" type="12" value="SELECT ID, [Employee Name] FROM [Employees Extended] ORDER BY [Employee Name];"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="2"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <ListRows name="ListRows" type="3" value="16"/>
+      <ListWidth name="ListWidth" type="10" value="0twip"/>
+      <LimitToList name="LimitToList" type="1" value="True"/>
+      <AllowMultipleValues name="AllowMultipleValues" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="True"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <ColumnWidths name="ColumnWidths" type="10" value="0;2880"/>
+      <ListItemsEditForm name="ListItemsEditForm" type="12" value="Employee Details"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+    </Field_15>
+  </FieldDefs>
+  <Indexes>
+    <Index_0 name="EmployeesOnPurchaseOrder">
+      <Name value="EmployeesOnPurchaseOrder"/>
+      <Unique value="False"/>
+      <Clustered value="False"/>
+      <Primary value="False"/>
+      <Foreign value="False"/>
+      <Required value="False"/>
+      <IgnoreNulls value="False"/>
+      <Fields>
+        <FieldNames value="+Created By"/>
+      </Fields>
+    </Index_0>
+    <Index_1 name="ID">
+      <Name value="ID"/>
+      <Unique value="True"/>
+      <Clustered value="False"/>
+      <Primary value="False"/>
+      <Foreign value="False"/>
+      <Required value="False"/>
+      <IgnoreNulls value="False"/>
+      <Fields>
+        <FieldNames value="+Purchase Order ID"/>
+      </Fields>
+    </Index_1>
+    <Index_5 name="PrimaryKey">
+      <Name value="PrimaryKey"/>
+      <Unique value="True"/>
+      <Clustered value="False"/>
+      <Primary value="True"/>
+      <Foreign value="False"/>
+      <Required value="True"/>
+      <IgnoreNulls value="False"/>
+      <Fields>
+        <FieldNames value="+Purchase Order ID"/>
+      </Fields>
+    </Index_5>
+    <Index_6 name="PurchaseOrderStatusLookup">
+      <Name value="PurchaseOrderStatusLookup"/>
+      <Unique value="False"/>
+      <Clustered value="False"/>
+      <Primary value="False"/>
+      <Foreign value="False"/>
+      <Required value="False"/>
+      <IgnoreNulls value="False"/>
+      <Fields>
+        <FieldNames value="+Status ID"/>
+      </Fields>
+    </Index_6>
+    <Index_7 name="Status ID">
+      <Name value="Status ID"/>
+      <Unique value="False"/>
+      <Clustered value="False"/>
+      <Primary value="False"/>
+      <Foreign value="False"/>
+      <Required value="False"/>
+      <IgnoreNulls value="False"/>
+      <Fields>
+        <FieldNames value="+Status ID"/>
+      </Fields>
+    </Index_7>
+    <Index_8 name="SupplierID">
+      <Name value="SupplierID"/>
+      <Unique value="False"/>
+      <Clustered value="False"/>
+      <Primary value="False"/>
+      <Foreign value="False"/>
+      <Required value="False"/>
+      <IgnoreNulls value="False"/>
+      <Fields>
+        <FieldNames value="+Supplier ID"/>
+      </Fields>
+    </Index_8>
+    <Index_9 name="SuppliersOnPurchaseOrder">
+      <Name value="SuppliersOnPurchaseOrder"/>
+      <Unique value="False"/>
+      <Clustered value="False"/>
+      <Primary value="False"/>
+      <Foreign value="False"/>
+      <Required value="False"/>
+      <IgnoreNulls value="False"/>
+      <Fields>
+        <FieldNames value="+Supplier ID"/>
+      </Fields>
+    </Index_9>
+  </Indexes>
+</TableDef>

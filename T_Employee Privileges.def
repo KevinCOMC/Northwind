@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TableDef name="Employee Privileges" foreign="False">
+  <Properties/>
+  <SQL>CREATE TABLE [Employee Privileges] (
+[Employee ID] LONG,
+[Privilege ID] LONG);</SQL>
+  <Attributes value="0">
+    <dbHiddenObject value="False"/>
+    <dbAttachExclusive value="False"/>
+    <dbAttachSavePWD value="False"/>
+    <dbAttachedODBC value="False"/>
+    <dbAttachedTable value="False"/>
+    <dbSystemObject value="False"/>
+  </Attributes>
+  <FieldDefs>
+    <Field_0 name="Employee ID">
+      <Value name="Value" type="4"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
+      <Type name="Type" type="3" value="4"/>
+      <Name name="Name" type="12" value="Employee ID"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="0"/>
+      <Size name="Size" type="4" value="4"/>
+      <SourceField name="SourceField" type="12" value="Employee ID"/>
+      <SourceTable name="SourceTable" type="12" value="Employee Privileges"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="4"/>
+      <VisibleValue name="VisibleValue" type="4"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="2400"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <DecimalPlaces name="DecimalPlaces" type="2" value="255"/>
+      <DisplayControl name="DisplayControl" type="3" value="111"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
+      <RowSource name="RowSource" type="12" value="SELECT Id, [Employee Name] FROM [Employees Extended] ORDER BY [Employee Name];"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="2"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <ListRows name="ListRows" type="3" value="16"/>
+      <ListWidth name="ListWidth" type="10" value="0twip"/>
+      <LimitToList name="LimitToList" type="1" value="True"/>
+      <AllowMultipleValues name="AllowMultipleValues" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="True"/>
+      <ColumnWidths name="ColumnWidths" type="10" value="0;2880"/>
+      <ListItemsEditForm name="ListItemsEditForm" type="12" value="Employee Details"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+    </Field_0>
+    <Field_1 name="Privilege ID">
+      <Value name="Value" type="4"/>
+      <Attributes name="Attributes" type="4" value="2"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
+      <Type name="Type" type="3" value="4"/>
+      <Name name="Name" type="12" value="Privilege ID"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="1"/>
+      <Size name="Size" type="4" value="4"/>
+      <SourceField name="SourceField" type="12" value="Privilege ID"/>
+      <SourceTable name="SourceTable" type="12" value="Employee Privileges"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="4"/>
+      <VisibleValue name="VisibleValue" type="4"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="2655"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <DecimalPlaces name="DecimalPlaces" type="2" value="255"/>
+      <DisplayControl name="DisplayControl" type="3" value="110"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
+      <RowSource name="RowSource" type="12" value="Privileges"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="2"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <AllowMultipleValues name="AllowMultipleValues" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="True"/>
+      <ColumnWidths name="ColumnWidths" type="10" value="0;2880"/>
+      <ListRows name="ListRows" type="3" value="16"/>
+      <LimitToList name="LimitToList" type="1" value="True"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+    </Field_1>
+  </FieldDefs>
+  <Indexes>
+    <Index_0 name="EmployeePriviligesforEmployees">
+      <Name value="EmployeePriviligesforEmployees"/>
+      <Unique value="False"/>
+      <Clustered value="False"/>
+      <Primary value="False"/>
+      <Foreign value="False"/>
+      <Required value="False"/>
+      <IgnoreNulls value="False"/>
+      <Fields>
+        <FieldNames value="+Employee ID"/>
+      </Fields>
+    </Index_0>
+    <Index_1 name="EmployeePriviligesLookup">
+      <Name value="EmployeePriviligesLookup"/>
+      <Unique value="False"/>
+      <Clustered value="False"/>
+      <Primary value="False"/>
+      <Foreign value="False"/>
+      <Required value="False"/>
+      <IgnoreNulls value="False"/>
+      <Fields>
+        <FieldNames value="+Privilege ID"/>
+      </Fields>
+    </Index_1>
+    <Index_4 name="PrimaryKey">
+      <Name value="PrimaryKey"/>
+      <Unique value="True"/>
+      <Clustered value="False"/>
+      <Primary value="True"/>
+      <Foreign value="False"/>
+      <Required value="True"/>
+      <IgnoreNulls value="False"/>
+      <Fields>
+        <FieldNames value="+Employee ID;+Privilege ID"/>
+      </Fields>
+    </Index_4>
+    <Index_5 name="Privilege ID">
+      <Name value="Privilege ID"/>
+      <Unique value="False"/>
+      <Clustered value="False"/>
+      <Primary value="False"/>
+      <Foreign value="False"/>
+      <Required value="False"/>
+      <IgnoreNulls value="False"/>
+      <Fields>
+        <FieldNames value="+Privilege ID"/>
+      </Fields>
+    </Index_5>
+  </Indexes>
+</TableDef>
