@@ -1,0 +1,1165 @@
+Version =20
+VersionRequired =20
+PublishOption =1
+Checksum =136461060
+Begin Form
+    AutoCenter = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =2
+    ViewsAllowed =2
+    TabularCharSet =186
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =6360
+    DatasheetFontHeight =11
+    ItemSuffix =27
+    DatasheetGridlinesColor =-2147483632
+    Tag ="SubForm~Variation=Datasheet"
+    RecSrcDt = Begin
+        0x7361061f580ae340
+    End
+    GUID = Begin
+        0xb6afd2677ea73045bc1b48f8f8113044
+    End
+    NameMap = Begin
+        0x0acc0e55000000000573bcfbeca1ac4f9619a130ea4eb9e100000000309d8761 ,
+        0x580ae34040000000010000004f0072006400650072002000530075006d006d00 ,
+        0x6100720079000000000000006deb8078a5a8bd4d80ddd7f53e9728d807000000 ,
+        0x0573bcfbeca1ac4f9619a130ea4eb9e14f007200640065007200200049004400 ,
+        0x0000000000003b2583ca4ebe804d8dff4fb05186f65501000000473aef1f580a ,
+        0xe34000000000000000004f007200640065007200200044006500740061006900 ,
+        0x6c007300000000000000b783513006e085448c940ac77f9c03e206000000b6af ,
+        0xd2677ea73045bc1b48f8f81130444f0072006400650072002000490044000000 ,
+        0x00000000be17bd61d444b84480f3ed92868c2040070000000573bcfbeca1ac4f ,
+        0x9619a130ea4eb9e143007500730074006f006d00650072002000490044000000 ,
+        0x000000000effc3f7b2ba1243a93cde9c53b1139600000000bc3ba860580ae340 ,
+        0x090000000500000043007500730074006f006d00650072007300200045007800 ,
+        0x740065006e00640065006400000000000000c30ec6c849483f4b967d142281f9 ,
+        0x67d6070000000effc3f7b2ba1243a93cde9c53b1139649004400000000000000 ,
+        0xf7e75de07a5170499338f90efd2357a3070000000effc3f7b2ba1243a93cde9c ,
+        0x53b1139643006f006d00700061006e0079000000000000009515a3ea62d84744 ,
+        0xa1f2c9418ac3868001000000bec60763580ae340000000000000000043007500 ,
+        0x730074006f006d00650072002000440065007400610069006c00730000000000 ,
+        0x000088b62ca78e2f4b4baa5aa02a76ffca89070000000573bcfbeca1ac4f9619 ,
+        0xa130ea4eb9e14f00720064006500720020004400610074006500000000000000 ,
+        0x8f093ec63497af4eb914dcb03a5230ee070000000573bcfbeca1ac4f9619a130 ,
+        0xea4eb9e153006800690070007000650064002000440061007400650000000000 ,
+        0x000020db796c5deca643ab0f97cf08f19a87070000000573bcfbeca1ac4f9619 ,
+        0xa130ea4eb9e1530068006900700020004e0061006d006500000000000000021d ,
+        0x8433146809448d46fa5cdf2660d7070000000573bcfbeca1ac4f9619a130ea4e ,
+        0xb9e1530068006900700020004100640064007200650073007300000000000000 ,
+        0xe9bc67e5ff99db4187989ab509bcaca6070000000573bcfbeca1ac4f9619a130 ,
+        0xea4eb9e15300680069007000700069006e006700200046006500650000000000 ,
+        0x0000799f0a852ebd5f46bb85c25ba6edde3c070000000573bcfbeca1ac4f9619 ,
+        0xa130ea4eb9e154006100780065007300000000000000145c0855e344dd49b737 ,
+        0xcdd34b7de439070000000573bcfbeca1ac4f9619a130ea4eb9e1530075006200 ,
+        0x200054006f00740061006c00000000000000c3f2abacc9e5f445baf75794dec5 ,
+        0x58ad070000000573bcfbeca1ac4f9619a130ea4eb9e14f007200640065007200 ,
+        0x200054006f00740061006c00000000000000e88a792a5b2a9b448f285ed27613 ,
+        0xb613070000000573bcfbeca1ac4f9619a130ea4eb9e145006d0070006c006f00 ,
+        0x790065006500200049004400000000000000d4a22753fe288c46a534c1a1ed6e ,
+        0x82aa0000000094bed560580ae340010000004029283445006d0070006c006f00 ,
+        0x7900650065007300200045007800740065006e00640065006400000000000000 ,
+        0xf647e0aa4252b04e8cc8600c5f2249c807000000d4a22753fe288c46a534c1a1 ,
+        0xed6e82aa490044000000000000000f1e0076e1f1aa4ba71c839d707f883b0700 ,
+        0x0000d4a22753fe288c46a534c1a1ed6e82aa45006d0070006c006f0079006500 ,
+        0x650020004e0061006d006500000000000000bb2d3a363d2d6247a20e6788c33a ,
+        0x6c6b01000000bf065763580ae340000000000000000045006d0070006c006f00 ,
+        0x7900650065002000440065007400610069006c00730000000000000000000000 ,
+        0x0000000000000000000000000c00000004000000000000000000000000000000 ,
+        0x0000
+    End
+    RecordSource ="Order Summary"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0xd002000068010000d00200006801000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    PrtDevMode = Begin
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x010402059c00d804032f000001000100ea0a6f08640001000100580202000200 ,
+        0x5802030001004c65747465720000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000010000000000000001000000 ,
+        0x0200000001000000000000000000000000000000000000000000000050524956 ,
+        0xe230000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000180000000000102710271027 ,
+        0x0000102700000000000000000000c40200000000000000000000000000000000 ,
+        0x00000000000000000300000000000000140210005c4b03006843040000000000 ,
+        0x00000000010001000000000000000000000000000000000018c232e10a000000 ,
+        0x01000000ff00ff00000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x1402000039585258020000003130585800000000000000000000000000000000 ,
+        0x000000000000000000000000000000002a000000160100000000170334010000 ,
+        0x18034c0100001201000000000101010000007801010000006c01010000006501 ,
+        0x0000000077036401000066010000000091010000000067011600000068011500 ,
+        0x00008e01000000006901000000006a01150000007f01000000006f0101000000 ,
+        0xfa01000000007001000000007101000000007201000000009201000000009301 ,
+        0x000000009401010000006b01030000000d01000000006d010000000089010000 ,
+        0x0000140100000000150101000000020100000000030100000000040100000000 ,
+        0x0f01000000001101000000001001000000008c01000000008d01000000007a03 ,
+        0x7e0100007c02000000007d020000000014000000300000000000000000000000 ,
+        0x0000000000000000140000003000000000000000000000000000000000000000 ,
+        0x1600000000000000000000000000000000000000000000000000960000001402 ,
+        0x0000395852580200000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000250000001201000000000101010000007801 ,
+        0x010000006c010100000065010000000077031601000066010000000091010000 ,
+        0x00006701160000006801150000008e01000000006901000000006a0115000000 ,
+        0x7f01000000006f01010000007001000000007101
+    End
+    PrtDevNames = Begin
+        0x080018002f000100000000000000000000000000000000000000000000000000 ,
+        0x00000000000000000000000000000078727830303030616136616230333700
+    End
+    AllowFormView =0
+    AllowPivotTableView =0
+    AllowPivotChartView =0
+    AllowPivotChartView =0
+    FilterOnLoad =0
+    DatasheetBackColor12 =16777215
+    ShowPageMargins =0
+    DisplayOnSharePointSite =0
+    DatasheetAlternateBackColor =-2147483610
+    DatasheetGridlinesColor12 =-1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextFontFamily =0
+            FontSize =9
+            ForeColor =-2147483615
+            FontName ="Segoe UI"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            PictureAlignment =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CommandButton
+            FontSize =9
+            FontWeight =400
+            ForeColor =-2147483615
+            FontName ="Segoe UI"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin BoundObjectFrame
+            AddColon = NotDefault
+            SpecialEffect =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            TextFontCharSet =186
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            ShowDatePicker =1
+        End
+        Begin ListBox
+            AddColon = NotDefault
+            SpecialEffect =2
+            TextFontCharSet =186
+            FontSize =11
+            BackColor =-2147483643
+            FontName ="Calibri"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ComboBox
+            AddColon = NotDefault
+            SpecialEffect =2
+            TextFontCharSet =186
+            FontSize =11
+            FontName ="Calibri"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Subform
+            AddColon = NotDefault
+            BorderColor =-2147483609
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ToggleButton
+            FontSize =9
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Segoe UI"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Tab
+            TextFontFamily =0
+            FontSize =9
+            FontName ="Segoe UI"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Attachment
+            BackStyle =0
+            OldBorderStyle =0
+            PictureSizeMode =3
+            Width =4800
+            Height =3840
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            AddColon =0
+        End
+        Begin FormHeader
+            Height =0
+            BackColor =-2147483613
+            Name ="FormHeader"
+            GUID = Begin
+                0x82287657e3549f408f7dd279267dfccf
+            End
+            AutoHeight =1
+        End
+        Begin Section
+            Height =5535
+            BackColor =-2147483613
+            Name ="Detail"
+            GUID = Begin
+                0x6990dafd5e63da49a660d55ffd8d6dd6
+            End
+            Begin
+                Begin TextBox
+                    FontUnderline = NotDefault
+                    OverlapFlags =85
+                    TextFontCharSet =162
+                    IMESentenceMode =3
+                    Left =1695
+                    Top =360
+                    Width =3480
+                    Height =315
+                    ColumnWidth =1305
+                    ColumnOrder =0
+                    BackColor =-2147483643
+                    ForeColor =1279872587
+                    Name ="Order ID"
+                    ControlSource ="Order ID"
+                    Tag ="HyperlinkToDetails~FormName=Order Details~SourceID=[Order ID]"
+                    EventProcPrefix ="Order_ID"
+                    GUID = Begin
+                        0xb783513006e085448c940ac77f9c03e2
+                    End
+                    RowGroup =1
+                    GroupTable =1
+                    OnClickEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =10
+                        Begin
+                            Action ="OnError"
+                            Argument ="0"
+                        End
+                        Begin
+                            Condition ="[Form].[Dirty]"
+                            Action ="RunCommand"
+                            Argument ="97"
+                        End
+                        Begin
+                            Condition ="[MacroError].[Number]<>0"
+                            Action ="MsgBox"
+                            Argument ="=[MacroError].[Description]"
+                            Argument ="-1"
+                            Argument ="0"
+                        End
+                        Begin
+                            Condition ="..."
+                            Action ="StopMacro"
+                        End
+                        Begin
+                            Action ="OnError"
+                            Argument ="2"
+                        End
+                        Begin
+                        End
+                        Begin
+                            Action ="OpenForm"
+                            Argument ="Order Details"
+                            Argument ="0"
+                            Argument =""
+                            Argument ="=\"[Order ID]=\" & Nz([Order ID],0)"
+                            Argument ="-1"
+                            Argument ="3"
+                        End
+                        Begin
+                            Condition ="Not IsNull([Order ID])"
+                            Action ="SetTempVar"
+                            Argument ="CurrentID"
+                            Argument ="[Order ID]"
+                        End
+                        Begin
+                            Condition ="IsNull([Order ID])"
+                            Action ="SetTempVar"
+                            Argument ="CurrentID"
+                            Argument ="Nz(DMax(\"[Order ID]\",[Form].[RecordSource]),0)"
+                        End
+                        Begin
+                            Action ="Requery"
+                        End
+                        Begin
+                            Action ="SearchForRecord"
+                            Argument ="-1"
+                            Argument =""
+                            Argument ="2"
+                            Argument ="=\"[Order ID]=\" & [TempVars]![CurrentID]"
+                        End
+                        Begin
+                            Action ="RemoveTempVar"
+                            Argument ="CurrentID"
+                        End
+                    End
+                    DisplayAsHyperlink =2
+                    IMEMode =0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =360
+                            Top =360
+                            Width =1260
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Order ID_Label"
+                            Caption ="Order #"
+                            EventProcPrefix ="Order_ID_Label"
+                            GUID = Begin
+                                0xba7b0ffddfd98a47a46ae8149f087e94
+                            End
+                            RowGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListWidth =1440
+                    Left =1695
+                    Top =750
+                    Width =3480
+                    Height =315
+                    ColumnWidth =2850
+                    ColumnOrder =4
+                    TabIndex =1
+                    BackColor =-2147483643
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"100\""
+                    GUID = Begin
+                        0xc8acdab587fb214f879d178b8e21437a
+                    End
+                    Name ="Customer ID"
+                    ControlSource ="Customer ID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT [ID], [Company] FROM [Customers Extended] ORDER BY [Company]; "
+                    ColumnWidths ="0;1440"
+                    StatusBarText ="Double-click to go to details"
+                    Tag ="DrillToRelated~FormName=Customer Details~DestID=ID"
+                    EventProcPrefix ="Customer_ID"
+                    RowGroup =2
+                    GroupTable =1
+                    OnDblClickEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =10
+                        Begin
+                            Condition ="IsNull([Screen].[ActiveControl])"
+                            Action ="StopMacro"
+                        End
+                        Begin
+                        End
+                        Begin
+                            Action ="OpenForm"
+                            Argument ="Customer Details"
+                            Argument ="0"
+                            Argument =""
+                            Argument ="=\"[ID]=\" & [Screen].[ActiveControl]"
+                            Argument ="-1"
+                            Argument ="3"
+                        End
+                        Begin
+                            Action ="OnError"
+                            Argument ="0"
+                        End
+                        Begin
+                            Action ="Requery"
+                            Argument ="=[Screen].[ActiveControl].[Name]"
+                        End
+                    End
+                    OnGotFocusEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =10
+                        Begin
+                            Action ="OnError"
+                            Argument ="0"
+                        End
+                        Begin
+                            Condition ="[Screen].[ActiveForm].[Name]=[Form].[Name]"
+                            Action ="Requery"
+                            Argument ="=[Screen].[ActiveControl].[Name]"
+                        End
+                    End
+                    AllowValueListEdits =1
+                    ListItemsEditForm ="Customer Details"
+                    InheritValueList =1
+                    IMEMode =0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =360
+                            Top =750
+                            Width =1260
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Customer ID_Label"
+                            Caption ="Customer"
+                            EventProcPrefix ="Customer_ID_Label"
+                            GUID = Begin
+                                0x06580839e7f7484bb554fbd2d8474707
+                            End
+                            RowGroup =2
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    FontUnderline = NotDefault
+                    OverlapFlags =85
+                    TextFontCharSet =162
+                    IMEMode =2
+                    IMESentenceMode =3
+                    Left =1695
+                    Top =1140
+                    Width =3480
+                    Height =315
+                    ColumnWidth =1320
+                    ColumnOrder =1
+                    TabIndex =2
+                    BackColor =-2147483643
+                    ForeColor =1279872587
+                    Name ="Order Date"
+                    ControlSource ="Order Date"
+                    Format ="Short Date"
+                    Tag ="HyperlinkToDetails~FormName=Order Details~SourceID=[Order ID]"
+                    EventProcPrefix ="Order_Date"
+                    GUID = Begin
+                        0xad23885e545a414792bb2adcf85d4a72
+                    End
+                    RowGroup =3
+                    GroupTable =1
+                    OnClickEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =10
+                        Begin
+                            Action ="OnError"
+                            Argument ="0"
+                        End
+                        Begin
+                            Condition ="[Form].[Dirty]"
+                            Action ="RunCommand"
+                            Argument ="97"
+                        End
+                        Begin
+                            Condition ="[MacroError].[Number]<>0"
+                            Action ="MsgBox"
+                            Argument ="=[MacroError].[Description]"
+                            Argument ="-1"
+                            Argument ="0"
+                        End
+                        Begin
+                            Condition ="..."
+                            Action ="StopMacro"
+                        End
+                        Begin
+                            Action ="OnError"
+                            Argument ="2"
+                        End
+                        Begin
+                        End
+                        Begin
+                            Action ="OpenForm"
+                            Argument ="Order Details"
+                            Argument ="0"
+                            Argument =""
+                            Argument ="=\"[Order ID]=\" & Nz([Order ID],0)"
+                            Argument ="-1"
+                            Argument ="3"
+                        End
+                        Begin
+                            Condition ="Not IsNull([Order ID])"
+                            Action ="SetTempVar"
+                            Argument ="CurrentID"
+                            Argument ="[Order ID]"
+                        End
+                        Begin
+                            Condition ="IsNull([Order ID])"
+                            Action ="SetTempVar"
+                            Argument ="CurrentID"
+                            Argument ="Nz(DMax(\"[Order ID]\",[Form].[RecordSource]),0)"
+                        End
+                        Begin
+                            Action ="Requery"
+                        End
+                        Begin
+                            Action ="SearchForRecord"
+                            Argument ="-1"
+                            Argument =""
+                            Argument ="2"
+                            Argument ="=\"[Order ID]=\" & [TempVars]![CurrentID]"
+                        End
+                        Begin
+                            Action ="RemoveTempVar"
+                            Argument ="CurrentID"
+                        End
+                    End
+                    DisplayAsHyperlink =2
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =360
+                            Top =1140
+                            Width =1260
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Order Date_Label"
+                            Caption ="Order Date"
+                            Tag =";RegenerateCaption;"
+                            EventProcPrefix ="Order_Date_Label"
+                            GUID = Begin
+                                0x8a4d50f72c02a843b06f442d9e275c0e
+                            End
+                            RowGroup =3
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    ColumnHidden = NotDefault
+                    OverlapFlags =85
+                    IMEMode =2
+                    IMESentenceMode =3
+                    Left =1695
+                    Top =1530
+                    Width =3480
+                    Height =315
+                    ColumnWidth =1230
+                    ColumnOrder =5
+                    TabIndex =3
+                    BackColor =-2147483643
+                    Name ="Shipped Date"
+                    ControlSource ="Shipped Date"
+                    Format ="Short Date"
+                    EventProcPrefix ="Shipped_Date"
+                    GUID = Begin
+                        0x5d4fd8768fe56042aab23e00d24ee744
+                    End
+                    RowGroup =4
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =360
+                            Top =1530
+                            Width =1260
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Shipped Date_Label"
+                            Caption ="Shipped"
+                            EventProcPrefix ="Shipped_Date_Label"
+                            GUID = Begin
+                                0x770f3ead0221aa4b92cc292062e8c4b3
+                            End
+                            RowGroup =4
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    ColumnHidden = NotDefault
+                    OverlapFlags =85
+                    Left =1695
+                    Top =1920
+                    Width =3480
+                    Height =315
+                    ColumnWidth =2580
+                    ColumnOrder =2
+                    TabIndex =4
+                    BackColor =-2147483643
+                    Name ="Ship Name"
+                    ControlSource ="Ship Name"
+                    EventProcPrefix ="Ship_Name"
+                    GUID = Begin
+                        0x5aafe3adb05b2f439651b3a68620f52a
+                    End
+                    RowGroup =5
+                    GroupTable =1
+                    IMEMode =0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =360
+                            Top =1920
+                            Width =1260
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Ship Name_Label"
+                            Caption ="Ship Name"
+                            Tag =";RegenerateCaption;"
+                            EventProcPrefix ="Ship_Name_Label"
+                            GUID = Begin
+                                0x04df82f7f3b17347aad97057ebe1034b
+                            End
+                            RowGroup =5
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    ColumnHidden = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    Left =1695
+                    Top =2310
+                    Width =3480
+                    Height =855
+                    ColumnWidth =0
+                    ColumnOrder =3
+                    TabIndex =5
+                    BackColor =-2147483643
+                    Name ="Ship Address"
+                    ControlSource ="Ship Address"
+                    EventProcPrefix ="Ship_Address"
+                    GUID = Begin
+                        0x2b24e8e3b984954ab32e4881914f4ac0
+                    End
+                    RowGroup =6
+                    GroupTable =1
+                    IMEMode =0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =360
+                            Top =2310
+                            Width =1260
+                            Height =855
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Ship Address_Label"
+                            Caption ="Ship Address"
+                            Tag =";RegenerateCaption;"
+                            EventProcPrefix ="Ship_Address_Label"
+                            GUID = Begin
+                                0x2aac7b2eee34e34b9a16c2e28245dfc8
+                            End
+                            RowGroup =6
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    ColumnHidden = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1695
+                    Top =3630
+                    Width =3480
+                    Height =315
+                    ColumnWidth =1080
+                    ColumnOrder =8
+                    TabIndex =7
+                    BackColor =-2147483643
+                    Name ="Shipping Fee"
+                    ControlSource ="Shipping Fee"
+                    Format ="Currency"
+                    EventProcPrefix ="Shipping_Fee"
+                    GUID = Begin
+                        0x1b3033ac9d4a0642927a05414307da39
+                    End
+                    RowGroup =8
+                    GroupTable =1
+                    IMEMode =0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =360
+                            Top =3630
+                            Width =1260
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Shipping Fee_Label"
+                            Caption ="Shipping"
+                            EventProcPrefix ="Shipping_Fee_Label"
+                            GUID = Begin
+                                0x2310d41a7a613349a6205dcee21c8d51
+                            End
+                            RowGroup =8
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    ColumnHidden = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1695
+                    Top =4020
+                    Width =3480
+                    Height =315
+                    ColumnWidth =840
+                    ColumnOrder =7
+                    TabIndex =8
+                    BackColor =-2147483643
+                    Name ="Taxes"
+                    ControlSource ="Taxes"
+                    Format ="Currency"
+                    GUID = Begin
+                        0x2dd42516511b5045bf226138719a37f3
+                    End
+                    RowGroup =9
+                    GroupTable =1
+                    IMEMode =0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =360
+                            Top =4020
+                            Width =1260
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Taxes_Label"
+                            Caption ="Taxes"
+                            Tag =";RegenerateCaption;"
+                            GUID = Begin
+                                0x712b7fea0a24194198a5bdcd81fe8df1
+                            End
+                            RowGroup =9
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    ColumnHidden = NotDefault
+                    DecimalPlaces =2
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1695
+                    Top =4800
+                    Width =3480
+                    Height =315
+                    ColumnWidth =1140
+                    ColumnOrder =6
+                    TabIndex =10
+                    BackColor =-2147483643
+                    Name ="Sub Total"
+                    ControlSource ="Sub Total"
+                    Format ="Currency"
+                    EventProcPrefix ="Sub_Total"
+                    GUID = Begin
+                        0x1991c6864c2f534989858eca2064c18e
+                    End
+                    RowGroup =11
+                    GroupTable =1
+                    IMEMode =0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =360
+                            Top =4800
+                            Width =1260
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Sub Total_Label"
+                            Caption ="Sub Total"
+                            Tag =";RegenerateCaption;"
+                            EventProcPrefix ="Sub_Total_Label"
+                            GUID = Begin
+                                0x4e91d213d50b6f428e33f7304862de07
+                            End
+                            RowGroup =11
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1695
+                    Top =4410
+                    Width =3480
+                    Height =315
+                    ColumnWidth =1770
+                    TabIndex =9
+                    BackColor =-2147483643
+                    Name ="Order Total"
+                    ControlSource ="Order Total"
+                    EventProcPrefix ="Order_Total"
+                    GUID = Begin
+                        0x9e3c92096f964c45b9f87028f04d7508
+                    End
+                    RowGroup =10
+                    GroupTable =1
+                    IMEMode =0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =360
+                            Top =4410
+                            Width =1260
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Order Total_Label"
+                            Caption ="Invoice Total"
+                            EventProcPrefix ="Order_Total_Label"
+                            GUID = Begin
+                                0x2637f60a47891945baf4feb412fe11e9
+                            End
+                            RowGroup =10
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    Visible = NotDefault
+                    ColumnHidden = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListWidth =1440
+                    Left =1695
+                    Top =3240
+                    Width =3480
+                    Height =315
+                    ColumnWidth =0
+                    TabIndex =6
+                    BackColor =-2147483643
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"0\""
+                    GUID = Begin
+                        0xb7047be81522404f93042adcd0ff6f5a
+                    End
+                    Name ="Employee ID"
+                    ControlSource ="Employee ID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT [ID], [Employee Name] FROM [Employees Extended] ORDER BY [Employee Name];"
+                        " "
+                    ColumnWidths ="0;1440"
+                    StatusBarText ="Double-click to go to details"
+                    Tag ="DrillToRelated~FormName=Employee Details~DestID=ID"
+                    EventProcPrefix ="Employee_ID"
+                    RowGroup =7
+                    GroupTable =1
+                    OnDblClickEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =10
+                        Begin
+                            Condition ="IsNull([Screen].[ActiveControl])"
+                            Action ="StopMacro"
+                        End
+                        Begin
+                        End
+                        Begin
+                            Action ="OpenForm"
+                            Argument ="Employee Details"
+                            Argument ="0"
+                            Argument =""
+                            Argument ="=\"[ID]=\" & [Screen].[ActiveControl]"
+                            Argument ="-1"
+                            Argument ="3"
+                        End
+                        Begin
+                            Action ="OnError"
+                            Argument ="0"
+                        End
+                        Begin
+                            Action ="Requery"
+                            Argument ="=[Screen].[ActiveControl].[Name]"
+                        End
+                    End
+                    OnGotFocusEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =10
+                        Begin
+                            Action ="OnError"
+                            Argument ="0"
+                        End
+                        Begin
+                            Condition ="[Screen].[ActiveForm].[Name]=[Form].[Name]"
+                            Action ="Requery"
+                            Argument ="=[Screen].[ActiveControl].[Name]"
+                        End
+                    End
+                    AllowValueListEdits =255
+                    ListItemsEditForm ="Employee Details"
+                    InheritValueList =1
+                    IMEMode =0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =360
+                            Top =3240
+                            Width =1260
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Employee ID_Label"
+                            Caption ="Employee"
+                            EventProcPrefix ="Employee_ID_Label"
+                            GUID = Begin
+                                0x485fc7f4ff2ecb4797012f7025b3ac00
+                            End
+                            RowGroup =7
+                            GroupTable =1
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =-2147483613
+            Name ="FormFooter"
+            GUID = Begin
+                0x222a9ba994439d4097858f7de66c5ba2
+            End
+            AutoHeight =1
+        End
+    End
+End

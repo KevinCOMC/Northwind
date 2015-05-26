@@ -1,0 +1,626 @@
+Version =20
+VersionRequired =20
+PublishOption =1
+Checksum =-1361029018
+Begin Form
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =2
+    ScrollBars =2
+    ViewsAllowed =2
+    TabularCharSet =186
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =4035
+    DatasheetFontHeight =11
+    ItemSuffix =19
+    DatasheetForeColor =-2147483640
+    DatasheetBackColor =-2147483643
+    DatasheetGridlinesColor =-2147483632
+    Tag ="SubForm~Variation=Datasheet"
+    RecSrcDt = Begin
+        0x3d86db21580ae340
+    End
+    GUID = Begin
+        0x1cbe35bd6d673b41b0a98c048685184c
+    End
+    NameMap = Begin
+        0x0acc0e5500000000c97ab8617a3f3e4eb5ed9858c91cddbd00000000370fff61 ,
+        0x580ae3404000000001000000500072006f006400750063007400200054007200 ,
+        0x61006e00730061006300740069006f006e007300000000000000fa94c2ba8b73 ,
+        0xfd44928260c99ff648b307000000c97ab8617a3f3e4eb5ed9858c91cddbd5000 ,
+        0x72006f0064007500630074002000490044000000000000006f8400a849434d4e ,
+        0xbe79a05e3b3b41e607000000c97ab8617a3f3e4eb5ed9858c91cddbd4f007200 ,
+        0x64006500720020004400610074006500000000000000baba03aa39ab244e931c ,
+        0x4c91a47bbfb407000000c97ab8617a3f3e4eb5ed9858c91cddbd43006f006d00 ,
+        0x700061006e00790020004e0061006d00650000000000000090c528475ca4f843 ,
+        0xb91b3ece2a7234ec07000000c97ab8617a3f3e4eb5ed9858c91cddbd54007200 ,
+        0x61006e00730061006300740069006f006e0000000000000040b5ed8b8db16e41 ,
+        0x8147868168d914d807000000c97ab8617a3f3e4eb5ed9858c91cddbd51007500 ,
+        0x61006e0074006900740079000000000000000000000000000000000000000000 ,
+        0x00000c000000040000000000000000000000000000000000
+    End
+    RecordSource ="Product Transactions"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0xd002000068010000d00200006801000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    PrtDevMode = Begin
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x010402059c00d804032f000001000100ea0a6f08640001000100580202000200 ,
+        0x5802030001004c65747465720000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000010000000000000001000000 ,
+        0x0200000001000000000000000000000000000000000000000000000050524956 ,
+        0xe230000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000180000000000102710271027 ,
+        0x0000102700000000000000000000c40200000000000000000000000000000000 ,
+        0x00000000000000000300000000000000140210005c4b03006843040000000000 ,
+        0x00000000010001000000000000000000000000000000000018c232e10a000000 ,
+        0x01000000ff00ff00000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x1402000039585258020000003130585800000000000000000000000000000000 ,
+        0x000000000000000000000000000000002a000000160100000000170334010000 ,
+        0x18034c0100001201000000000101010000007801010000006c01010000006501 ,
+        0x0000000077036401000066010000000091010000000067011600000068011500 ,
+        0x00008e01000000006901000000006a01150000007f01000000006f0101000000 ,
+        0xfa01000000007001000000007101000000007201000000009201000000009301 ,
+        0x000000009401010000006b01030000000d01000000006d010000000089010000 ,
+        0x0000140100000000150101000000020100000000030100000000040100000000 ,
+        0x0f01000000001101000000001001000000008c01000000008d01000000007a03 ,
+        0x7e0100007c02000000007d020000000014000000300000000000000000000000 ,
+        0x0000000000000000140000003000000000000000000000000000000000000000 ,
+        0x1600000000000000000000000000000000000000000000000000960000001402 ,
+        0x0000395852580200000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000250000001201000000000101010000007801 ,
+        0x010000006c010100000065010000000077031601000066010000000091010000 ,
+        0x00006701160000006801150000008e01000000006901000000006a0115000000 ,
+        0x7f01000000006f01010000007001000000007101
+    End
+    PrtDevNames = Begin
+        0x080018002f000100000000000000000000000000000000000000000000000000 ,
+        0x00000000000000000000000000000078727830303030616136616230333700
+    End
+    AllowFormView =0
+    AllowPivotTableView =0
+    AllowPivotChartView =0
+    AllowPivotChartView =0
+    FilterOnLoad =0
+    DatasheetBackColor12 =16777215
+    ShowPageMargins =0
+    DisplayOnSharePointSite =0
+    DatasheetAlternateBackColor =-2147483610
+    DatasheetGridlinesColor12 =-1
+    DatasheetForeColor12 =-2147483640
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =9
+            ForeColor =-2147483615
+            FontName ="Segoe UI"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            PictureAlignment =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CommandButton
+            FontSize =9
+            FontWeight =400
+            ForeColor =-2147483615
+            FontName ="Segoe UI"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin BoundObjectFrame
+            AddColon = NotDefault
+            SpecialEffect =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            TextFontCharSet =186
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            ShowDatePicker =1
+        End
+        Begin ListBox
+            AddColon = NotDefault
+            SpecialEffect =2
+            TextFontCharSet =186
+            FontSize =11
+            BackColor =-2147483643
+            FontName ="Calibri"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ComboBox
+            AddColon = NotDefault
+            SpecialEffect =2
+            TextFontCharSet =186
+            FontSize =11
+            FontName ="Calibri"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Subform
+            AddColon = NotDefault
+            BorderColor =-2147483609
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ToggleButton
+            FontSize =9
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Segoe UI"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Tab
+            FontSize =9
+            FontName ="Segoe UI"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Attachment
+            BackStyle =0
+            OldBorderStyle =0
+            PictureSizeMode =3
+            Width =4800
+            Height =3840
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            LabelX =-1800
+            AddColon =0
+        End
+        Begin FormHeader
+            Height =0
+            BackColor =-2147483613
+            Name ="FormHeader"
+            GUID = Begin
+                0xb90844bd4af6174184ec5fc376728ca0
+            End
+            AutoHeight =1
+        End
+        Begin Section
+            Height =1972
+            BackColor =-2147483613
+            Name ="Detail"
+            GUID = Begin
+                0xfb432a7f816ffa4e94d01c8ff66dfc8b
+            End
+            Begin
+                Begin TextBox
+                    ColumnHidden = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1665
+                    Top =1620
+                    Width =2310
+                    Height =315
+                    ColumnOrder =0
+                    TabIndex =4
+                    BackColor =-2147483643
+                    Name ="Product ID"
+                    ControlSource ="Product ID"
+                    EventProcPrefix ="Product_ID"
+                    GUID = Begin
+                        0x0112cc86f7ba304a8b054105e57e9dc7
+                    End
+                    RowGroup =5
+                    GroupTable =2
+                    IMEMode =0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =60
+                            Top =1620
+                            Width =1545
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Product ID_Label"
+                            Caption ="ProductID"
+                            EventProcPrefix ="Product_ID_Label"
+                            GUID = Begin
+                                0x9b06a630075e514c96f336135b2eb143
+                            End
+                            RowGroup =5
+                            GroupTable =2
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMEMode =2
+                    IMESentenceMode =3
+                    Left =1665
+                    Top =60
+                    Width =2310
+                    Height =315
+                    ColumnWidth =1410
+                    ColumnOrder =1
+                    BackColor =-2147483643
+                    Name ="Order Date"
+                    ControlSource ="Order Date"
+                    Format ="Short Date"
+                    EventProcPrefix ="Order_Date"
+                    GUID = Begin
+                        0xea2f69b6fd3d0146ab2fddc7e0b98039
+                    End
+                    RowGroup =4
+                    GroupTable =2
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =60
+                            Top =60
+                            Width =1545
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Order Date_Label"
+                            Caption ="Order Date"
+                            Tag =";RegenerateCaption;"
+                            EventProcPrefix ="Order_Date_Label"
+                            GUID = Begin
+                                0xbd8276e0f631bc4687d5b6b1262f1ace
+                            End
+                            RowGroup =4
+                            GroupTable =2
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1665
+                    Top =840
+                    Width =2310
+                    Height =315
+                    ColumnWidth =3390
+                    ColumnOrder =3
+                    TabIndex =2
+                    BackColor =-2147483643
+                    Name ="Company Name"
+                    ControlSource ="Company Name"
+                    EventProcPrefix ="Company_Name"
+                    GUID = Begin
+                        0xdbe914df6276b64f8d823f9452d65a00
+                    End
+                    RowGroup =3
+                    GroupTable =2
+                    IMEMode =0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =60
+                            Top =840
+                            Width =1545
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Company Name_Label"
+                            Caption ="Company Name"
+                            Tag =";RegenerateCaption;"
+                            EventProcPrefix ="Company_Name_Label"
+                            GUID = Begin
+                                0xeedb6e9a1586244297812b6502200b7b
+                            End
+                            RowGroup =3
+                            GroupTable =2
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1665
+                    Top =450
+                    Width =2310
+                    Height =315
+                    ColumnWidth =1755
+                    ColumnOrder =2
+                    TabIndex =1
+                    BackColor =-2147483643
+                    Name ="Transaction"
+                    ControlSource ="Transaction"
+                    GUID = Begin
+                        0x012bbfeea02852488517211ab7ced18b
+                    End
+                    RowGroup =2
+                    GroupTable =2
+                    IMEMode =0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =60
+                            Top =450
+                            Width =1545
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Transaction_Label"
+                            Caption ="Transaction"
+                            Tag =";RegenerateCaption;"
+                            GUID = Begin
+                                0xc149a3dbec80bf40ba2974c49dc5a85f
+                            End
+                            RowGroup =2
+                            GroupTable =2
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1665
+                    Top =1230
+                    Width =2310
+                    Height =315
+                    ColumnWidth =1110
+                    TabIndex =3
+                    BackColor =-2147483643
+                    Name ="Quantity"
+                    ControlSource ="Quantity"
+                    GUID = Begin
+                        0x831d5f263b823f4f84495d069999b178
+                    End
+                    RowGroup =1
+                    GroupTable =2
+                    IMEMode =0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =60
+                            Top =1230
+                            Width =1545
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Quantity_Label"
+                            Caption ="Quantity"
+                            Tag =";RegenerateCaption;"
+                            GUID = Begin
+                                0x6f24a0f7cad5dc45b7780834cd8e13b4
+                            End
+                            RowGroup =1
+                            GroupTable =2
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =-2147483613
+            Name ="FormFooter"
+            GUID = Begin
+                0x2ae71dcb2b843a4da9e681b120fc58c9
+            End
+            AutoHeight =1
+        End
+    End
+End

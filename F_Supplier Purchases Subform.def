@@ -1,0 +1,728 @@
+Version =20
+VersionRequired =20
+PublishOption =1
+Checksum =-1350246005
+Begin Form
+    AutoCenter = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =2
+    ViewsAllowed =2
+    TabularCharSet =186
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =4080
+    DatasheetFontHeight =11
+    ItemSuffix =44
+    DatasheetGridlinesColor =-2147483632
+    Tag ="SubForm~Variation=Datasheet"
+    RecSrcDt = Begin
+        0x6964562a580ae340
+    End
+    GUID = Begin
+        0xe78b4ec1f678e049bf2bd35f2164ecdd
+    End
+    NameMap = Begin
+        0x0acc0e55000000006660f48ee0320c46a87793a4df4192a60000000003af8260 ,
+        0x580ae34040000000010000005000750072006300680061007300650020004f00 ,
+        0x72006400650072007300000000000000fee084b70434b848acbdd9b53ac37f44 ,
+        0x070000006660f48ee0320c46a87793a4df4192a6500075007200630068006100 ,
+        0x7300650020004f0072006400650072002000490044000000000000003418be22 ,
+        0x908ed245944214cfe3f49f99070000006660f48ee0320c46a87793a4df4192a6 ,
+        0x53007500700070006c00690065007200200049004400000000000000b1e14e8f ,
+        0x1e753941b394f24195c511b40000000009708e62580ae34003000000cc731000 ,
+        0x53007500700070006c006900650072007300200045007800740065006e006400 ,
+        0x650064000000000000004468035cd6ba9c4c853d202d59e77d1c07000000b1e1 ,
+        0x4e8f1e753941b394f24195c511b449004400000000000000370b9aa5cd99814d ,
+        0x823b854f854b7b0b07000000b1e14e8f1e753941b394f24195c511b443006f00 ,
+        0x6d00700061006e007900000000000000c8028539f59c4d4f868baaee77c0d007 ,
+        0x01000000da4aae65580ae340000000000000000053007500700070006c006900 ,
+        0x650072002000440065007400610069006c007300000000000000cf0dfbfc2521 ,
+        0xdd4c85b0259eb77d2322070000006660f48ee0320c46a87793a4df4192a64300 ,
+        0x720065006100740069006f006e0020004400610074006500000000000000984f ,
+        0xbe1fe7a4a147a0261b7350f80d0c070000006660f48ee0320c46a87793a4df41 ,
+        0x92a6450078007000650063007400650064002000440061007400650000000000 ,
+        0x0000daf6506dc533e142a1fde6dbc30ed142070000006660f48ee0320c46a877 ,
+        0x93a4df4192a65300680069007000700069006e00670020004600650065000000 ,
+        0x00000000d5431815d4264d42b5a359a6a3b81c6d070000006660f48ee0320c46 ,
+        0xa87793a4df4192a6540061007800650073000000000000000000000000000000 ,
+        0x00000000000000000c000000040000000000000000000000000000000000
+    End
+    RecordSource ="Purchase Orders"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0xd002000068010000d00200006801000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    PrtDevMode = Begin
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x010402059c00d804032f000001000100ea0a6f08640001000100580202000200 ,
+        0x5802030001004c65747465720000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000010000000000000001000000 ,
+        0x0200000001000000000000000000000000000000000000000000000050524956 ,
+        0xe230000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000180000000000102710271027 ,
+        0x0000102700000000000000000000c40200000000000000000000000000000000 ,
+        0x00000000000000000300000000000000140210005c4b03006843040000000000 ,
+        0x00000000010001000000000000000000000000000000000018c232e10a000000 ,
+        0x01000000ff00ff00000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x1402000039585258020000003130585800000000000000000000000000000000 ,
+        0x000000000000000000000000000000002a000000160100000000170334010000 ,
+        0x18034c0100001201000000000101010000007801010000006c01010000006501 ,
+        0x0000000077036401000066010000000091010000000067011600000068011500 ,
+        0x00008e01000000006901000000006a01150000007f01000000006f0101000000 ,
+        0xfa01000000007001000000007101000000007201000000009201000000009301 ,
+        0x000000009401010000006b01030000000d01000000006d010000000089010000 ,
+        0x0000140100000000150101000000020100000000030100000000040100000000 ,
+        0x0f01000000001101000000001001000000008c01000000008d01000000007a03 ,
+        0x7e0100007c02000000007d020000000014000000300000000000000000000000 ,
+        0x0000000000000000140000003000000000000000000000000000000000000000 ,
+        0x1600000000000000000000000000000000000000000000000000960000001402 ,
+        0x0000395852580200000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000250000001201000000000101010000007801 ,
+        0x010000006c010100000065010000000077031601000066010000000091010000 ,
+        0x00006701160000006801150000008e01000000006901000000006a0115000000 ,
+        0x7f01000000006f01010000007001000000007101
+    End
+    PrtDevNames = Begin
+        0x080018002f000100000000000000000000000000000000000000000000000000 ,
+        0x00000000000000000000000000000078727830303030616136616230333700
+    End
+    AllowFormView =0
+    AllowPivotTableView =0
+    AllowPivotChartView =0
+    AllowPivotChartView =0
+    FilterOnLoad =0
+    DatasheetBackColor12 =16777215
+    ShowPageMargins =0
+    DisplayOnSharePointSite =0
+    DatasheetAlternateBackColor =-2147483610
+    DatasheetGridlinesColor12 =-1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextFontFamily =0
+            FontSize =9
+            ForeColor =-2147483615
+            FontName ="Segoe UI"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            PictureAlignment =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CommandButton
+            FontSize =9
+            FontWeight =400
+            ForeColor =-2147483615
+            FontName ="Segoe UI"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin BoundObjectFrame
+            AddColon = NotDefault
+            SpecialEffect =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            TextFontCharSet =186
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            ShowDatePicker =1
+        End
+        Begin ListBox
+            AddColon = NotDefault
+            SpecialEffect =2
+            TextFontCharSet =186
+            FontSize =11
+            BackColor =-2147483643
+            FontName ="Calibri"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ComboBox
+            AddColon = NotDefault
+            SpecialEffect =2
+            TextFontCharSet =186
+            FontSize =11
+            FontName ="Calibri"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Subform
+            AddColon = NotDefault
+            BorderColor =-2147483609
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ToggleButton
+            FontSize =9
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Segoe UI"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Tab
+            TextFontFamily =0
+            FontSize =9
+            FontName ="Segoe UI"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Attachment
+            BackStyle =0
+            OldBorderStyle =0
+            PictureSizeMode =3
+            Width =4800
+            Height =3840
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            AddColon =0
+        End
+        Begin FormHeader
+            Height =0
+            BackColor =-2147483613
+            Name ="FormHeader"
+            GUID = Begin
+                0x828826f902f43c42b75f8091f359928c
+            End
+            AutoHeight =1
+        End
+        Begin Section
+            Height =2460
+            BackColor =-2147483613
+            Name ="Detail"
+            GUID = Begin
+                0x819bc5ee83cb944a8d89b46e02044d3f
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1875
+                    Top =120
+                    Width =1830
+                    Height =315
+                    BackColor =-2147483643
+                    Name ="Purchase Order ID"
+                    ControlSource ="Purchase Order ID"
+                    EventProcPrefix ="Purchase_Order_ID"
+                    GUID = Begin
+                        0x7c1c656175bdf448a6c14c8e6fa3bd0b
+                    End
+                    RowGroup =1
+                    GroupTable =1
+                    IMEMode =0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =120
+                            Top =120
+                            Width =1680
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Purchase Order ID_Label"
+                            Caption ="Purchase Order ID"
+                            Tag =";RegenerateCaption;"
+                            EventProcPrefix ="Purchase_Order_ID_Label"
+                            GUID = Begin
+                                0x8826304613e243428248c1a6df371783
+                            End
+                            RowGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    ColumnHidden = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListWidth =1440
+                    Left =1875
+                    Top =510
+                    Width =1830
+                    Height =315
+                    TabIndex =1
+                    BackColor =-2147483643
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"100\""
+                    GUID = Begin
+                        0x0dd9943241ec414994adffe2cf6a2670
+                    End
+                    Name ="Supplier ID"
+                    ControlSource ="Supplier ID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT [ID], [Company] FROM [Suppliers Extended] ORDER BY [Company]; "
+                    ColumnWidths ="0;1440"
+                    StatusBarText ="Double-click to go to details"
+                    Tag ="DrillToRelated~FormName=Supplier Details~DestID=ID"
+                    EventProcPrefix ="Supplier_ID"
+                    RowGroup =2
+                    GroupTable =1
+                    OnDblClickEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =10
+                        Begin
+                            Condition ="IsNull([Screen].[ActiveControl])"
+                            Action ="StopMacro"
+                        End
+                        Begin
+                        End
+                        Begin
+                            Action ="OpenForm"
+                            Argument ="Supplier Details"
+                            Argument ="0"
+                            Argument =""
+                            Argument ="=\"[ID]=\" & [Screen].[ActiveControl]"
+                            Argument ="-1"
+                            Argument ="3"
+                        End
+                        Begin
+                            Action ="OnError"
+                            Argument ="0"
+                        End
+                        Begin
+                            Action ="Requery"
+                            Argument ="=[Screen].[ActiveControl].[Name]"
+                        End
+                    End
+                    OnGotFocusEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =10
+                        Begin
+                            Action ="OnError"
+                            Argument ="0"
+                        End
+                        Begin
+                            Condition ="[Screen].[ActiveForm].[Name]=[Form].[Name]"
+                            Action ="Requery"
+                            Argument ="=[Screen].[ActiveControl].[Name]"
+                        End
+                    End
+                    AllowValueListEdits =1
+                    ListItemsEditForm ="Supplier Details"
+                    InheritValueList =1
+                    IMEMode =0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =120
+                            Top =510
+                            Width =1680
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Supplier ID_Label"
+                            Caption ="Supplier"
+                            EventProcPrefix ="Supplier_ID_Label"
+                            GUID = Begin
+                                0x46c39d19e95daf4d852d6986b01e61de
+                            End
+                            RowGroup =2
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMEMode =2
+                    IMESentenceMode =3
+                    Left =1875
+                    Top =900
+                    Width =1830
+                    Height =315
+                    ColumnWidth =1830
+                    TabIndex =2
+                    BackColor =-2147483643
+                    Name ="Creation Date"
+                    ControlSource ="Creation Date"
+                    Format ="Short Date"
+                    EventProcPrefix ="Creation_Date"
+                    GUID = Begin
+                        0x93be0631bad9ba4b97b75611d5ec56e1
+                    End
+                    RowGroup =3
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =120
+                            Top =900
+                            Width =1680
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Creation Date_Label"
+                            Caption ="Purchased Date"
+                            EventProcPrefix ="Creation_Date_Label"
+                            GUID = Begin
+                                0xef6a9e5035369044bb10a3297978556b
+                            End
+                            RowGroup =3
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMEMode =2
+                    IMESentenceMode =3
+                    Left =1875
+                    Top =1290
+                    Width =1830
+                    Height =315
+                    ColumnWidth =1725
+                    TabIndex =3
+                    BackColor =-2147483643
+                    Name ="Expected Date"
+                    ControlSource ="Expected Date"
+                    Format ="Short Date"
+                    EventProcPrefix ="Expected_Date"
+                    GUID = Begin
+                        0x8e0d8e430fc21647beb55eebedc86238
+                    End
+                    RowGroup =4
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =120
+                            Top =1290
+                            Width =1680
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Expected Date_Label"
+                            Caption ="Expected Date"
+                            Tag =";RegenerateCaption;"
+                            EventProcPrefix ="Expected_Date_Label"
+                            GUID = Begin
+                                0x83d4c7fa3a75874386f7e48b97b5614d
+                            End
+                            RowGroup =4
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1875
+                    Top =1680
+                    Width =1830
+                    Height =315
+                    ColumnWidth =1590
+                    TabIndex =4
+                    BackColor =-2147483643
+                    Name ="Shipping Fee"
+                    ControlSource ="Shipping Fee"
+                    Format ="Currency"
+                    EventProcPrefix ="Shipping_Fee"
+                    GUID = Begin
+                        0x1dce49fe96e28e4693e279af77670516
+                    End
+                    RowGroup =5
+                    GroupTable =1
+                    IMEMode =0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =120
+                            Top =1680
+                            Width =1680
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Shipping Fee_Label"
+                            Caption ="Shipping Fee"
+                            Tag =";RegenerateCaption;"
+                            EventProcPrefix ="Shipping_Fee_Label"
+                            GUID = Begin
+                                0xb4628370eda19b47975d4601f3cfb200
+                            End
+                            RowGroup =5
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1875
+                    Top =2070
+                    Width =1830
+                    Height =315
+                    TabIndex =5
+                    BackColor =-2147483643
+                    Name ="Taxes"
+                    ControlSource ="Taxes"
+                    Format ="Currency"
+                    GUID = Begin
+                        0x0cd20b13800b01499893fd3ab7f04610
+                    End
+                    RowGroup =6
+                    GroupTable =1
+                    IMEMode =0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextFontFamily =34
+                            Left =120
+                            Top =2070
+                            Width =1680
+                            Height =315
+                            FontSize =10
+                            BackColor =-2147483613
+                            Name ="Taxes_Label"
+                            Caption ="Taxes"
+                            Tag =";RegenerateCaption;"
+                            GUID = Begin
+                                0x3a1622dc2d8e0d409a5080dd61c392ce
+                            End
+                            RowGroup =6
+                            GroupTable =1
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =-2147483613
+            Name ="FormFooter"
+            GUID = Begin
+                0xf79bfcca775a87449c2bf7678de2a29f
+            End
+            AutoHeight =1
+        End
+    End
+End

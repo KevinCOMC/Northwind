@@ -1,0 +1,883 @@
+Version =20
+VersionRequired =20
+PublishOption =1
+Checksum =-181383222
+Begin Report
+    LayoutForPrint = NotDefault
+    AllowDesignChanges = NotDefault
+    TabularFamily =48
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    PicturePages =1
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =10800
+    DatasheetFontHeight =10
+    ItemSuffix =77
+    DatasheetForeColor =-2147483640
+    DatasheetBackColor =-2147483643
+    DatasheetGridlinesColor =-2147483632
+    Tag ="Basics~Extensions=NoPageHeader"
+    RecSrcDt = Begin
+        0x68e05a58580ae340
+    End
+    GUID = Begin
+        0x7e2fb10fa3902e4488ff4af9081313a6
+    End
+    NameMap = Begin
+        0x0acc0e55000000002b6397b7024a1745b523c07af6562bd5000000004dca5462 ,
+        0x580ae3404000000001000000530061006c0065007300200041006e0061006c00 ,
+        0x790073006900730000000000000065caf2086da4c244b1f716c6126644f70700 ,
+        0x00002b6397b7024a1745b523c07af6562bd54d006f006e007400680020004e00 ,
+        0x61006d0065000000000000003e09392e06ae284da40656f46f8af27307000000 ,
+        0x2b6397b7024a1745b523c07af6562bd559006500610072000000000000000000 ,
+        0x0000000000000000000000000000070000002b6397b7024a1745b523c07af656 ,
+        0x2bd5530061006c0065007300470072006f007500700069006e00670046006900 ,
+        0x65006c0064000000000000000000000000000000000000000000000007000000 ,
+        0x2b6397b7024a1745b523c07af6562bd554006f00740061006c00200053006100 ,
+        0x6c006500730000000000000057c61ee9e0a8f04c82d8c17514be1d3b06000000 ,
+        0x7e2fb10fa3902e4488ff4af9081313a654006f00740061006c00200053006100 ,
+        0x6c0065007300000000000000c6bded367f0aee45a7369c9ee848151a07000000 ,
+        0x2b6397b7024a1745b523c07af6562bd54d006f006e0074006800000000000000 ,
+        0x000000000000000000000000000000000c000000040000000000000000000000 ,
+        0x000000000000
+    End
+    RecordSource ="Sales Analysis"
+    OnOpen ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000f01e00009501000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    PrtDevMode = Begin
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x010402059c00240f032f000001000100ea0a6f08640001000100580202000100 ,
+        0x5802030001004c65747465720000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000010000000000000001000000 ,
+        0x0200000000010000000000000000000000000000000000000000000050524956 ,
+        0xe230000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000180000000000102710271027 ,
+        0x0000102700000000000000004803c40200000000000000000000000000000000 ,
+        0x00000000000000000200000000000000600c10005c4b03006843040000000000 ,
+        0x0000000001000100000000000000000000000000000000009b339ecf11000000 ,
+        0x0000020000000100000000000000000000000000ff00ff000300000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x54060000524a5048414182820000000000000000000000005300470041005200 ,
+        0x44004e0045005200000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x00000000000000000000000000000000000000000c0600004241504841418282 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000
+    End
+    PrtDevNames = Begin
+        0x0800230059000100000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x00000000000000000000000000000000000000000000000000545330303100
+    End
+    FilterOnLoad =0
+    FitToPage =255
+    DisplayOnSharePointSite =1
+    DatasheetGridlinesColor12 =-2147483632
+    DatasheetForeColor12 =-2147483640
+    Begin
+        Begin Label
+            BackStyle =0
+            TextFontCharSet =178
+            FontSize =9
+            BorderColor =12371399
+            ForeColor =1462991
+            FontName ="Arial"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineColor =14870503
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Rectangle
+            BackColor =14870503
+            BorderColor =14870503
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineColor =14870503
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Line
+            OldBorderStyle =0
+            BorderColor =12371399
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineColor =14870503
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Image
+            SizeMode =3
+            PictureAlignment =2
+            BackColor =14870503
+            BorderColor =14870503
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineColor =14870503
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CommandButton
+            TextFontCharSet =178
+            FontSize =9
+            FontWeight =400
+            ForeColor =1769599
+            FontName ="Arial"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineColor =14870503
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionButton
+            OldBorderStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderColor =12371399
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineColor =14870503
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CheckBox
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineColor =14870503
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionGroup
+            OldBorderStyle =0
+            BorderColor =12371399
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin BoundObjectFrame
+            AddColon = NotDefault
+            OldBorderStyle =0
+            BackStyle =0
+            BorderColor =12371399
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineColor =14870503
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            TextFontCharSet =178
+            BackStyle =0
+            FontSize =9
+            BorderColor =12371399
+            FontName ="Arial"
+            AsianLineBreak =255
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineColor =14870503
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            ShowDatePicker =0
+        End
+        Begin ListBox
+            AddColon = NotDefault
+            TextFontCharSet =178
+            OldBorderStyle =0
+            FontSize =9
+            BorderColor =12371399
+            FontName ="Arial"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineColor =14870503
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ComboBox
+            AddColon = NotDefault
+            OldBorderStyle =0
+            TextFontCharSet =178
+            BackStyle =0
+            FontSize =9
+            BorderColor =12371399
+            FontName ="Arial"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineColor =14870503
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Subform
+            AddColon = NotDefault
+            BorderColor =12371399
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineColor =14870503
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin UnboundObjectFrame
+            BackStyle =0
+            BorderColor =12371399
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineColor =14870503
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CustomControl
+            OldBorderStyle =1
+            BorderColor =12371399
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineColor =14870503
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ToggleButton
+            TextFontCharSet =178
+            FontSize =9
+            FontWeight =400
+            ForeColor =1769599
+            FontName ="Arial"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineColor =14870503
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Tab
+            TextFontCharSet =178
+            BackStyle =0
+            FontSize =9
+            FontName ="Arial"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Attachment
+            BackStyle =0
+            OldBorderStyle =0
+            PictureSizeMode =3
+            Width =4800
+            Height =3840
+            BorderColor =12371399
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineColor =14870503
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            LabelX =-1800
+            AddColon =0
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="Year"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            GroupFooter = NotDefault
+            ControlSource ="Month"
+        End
+        Begin BreakLevel
+            SortOrder = NotDefault
+            ControlSource ="Total Sales"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =870
+            Name ="ReportHeader"
+            GUID = Begin
+                0xaa8288d92ffbea42a627c3c33185b055
+            End
+            AutoHeight =255
+            Begin
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    IMESentenceMode =3
+                    Left =5820
+                    Width =3600
+                    Height =225
+                    ColumnOrder =0
+                    FontSize =8
+                    ForeColor =1769599
+                    Name ="txtDate"
+                    ControlSource ="=Date()"
+                    Format ="Long Date"
+                    Tag ="Date"
+                    GUID = Begin
+                        0x70de8975d93f0440abee9c71e7345406
+                    End
+                    GridlineColor =0
+                    IMEMode =0
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    IMESentenceMode =3
+                    Left =9480
+                    Width =1320
+                    Height =225
+                    ColumnOrder =1
+                    FontSize =8
+                    TabIndex =1
+                    ForeColor =1769599
+                    Name ="txtTime"
+                    ControlSource ="=Time()"
+                    Format ="Long Time"
+                    Tag ="Time"
+                    GUID = Begin
+                        0x181eeff69d23a5498a64df97b308f91f
+                    End
+                    GridlineColor =0
+                    IMEMode =0
+                End
+                Begin Label
+                    TextFontCharSet =0
+                    TextFontFamily =0
+                    Width =7200
+                    Height =540
+                    FontSize =20
+                    ForeColor =1769599
+                    Name ="Auto_Title0"
+                    Caption ="Monthly Sales Report"
+                    FontName ="Trebuchet"
+                    GUID = Begin
+                        0xe71408d688619f4e8a002dd5c382aff8
+                    End
+                    GridlineColor =0
+                End
+            End
+        End
+        Begin PageHeader
+            Height =0
+            Name ="PageHeaderSection"
+            GUID = Begin
+                0xe9d74b4e9020c249a468d24ede0a910a
+            End
+            AutoHeight =255
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =0
+            Name ="GroupHeader0"
+            GUID = Begin
+                0xa51445f0213054448c1ddbf16935edee
+            End
+            AlternateBackColor =16777215
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =930
+            BreakLevel =1
+            Name ="GroupHeader1"
+            GUID = Begin
+                0x7df3df14b650f742b405a7fc32a62e88
+            End
+            AlternateBackColor =16777215
+            Begin
+                Begin Label
+                    Left =30
+                    Top =533
+                    Width =5390
+                    Height =360
+                    FontWeight =700
+                    Name ="SalesGroupingField_Label"
+                    Caption ="Product"
+                    Tag =";DoNotResize;"
+                    GUID = Begin
+                        0xc72211ce6c2ae8458142e9e6dd4cf870
+                    End
+                    ColumnGroup =1
+                    GroupTable =3
+                    GridlineColor =0
+                End
+                Begin Label
+                    Left =5480
+                    Top =533
+                    Width =1740
+                    Height =360
+                    FontWeight =700
+                    Name ="Total Sales_Label"
+                    Caption ="Sales"
+                    Tag =";DoNotResize;"
+                    EventProcPrefix ="Total_Sales_Label"
+                    GUID = Begin
+                        0x69b795d34e8e7d4da6ace196813f8a83
+                    End
+                    ColumnGroup =2
+                    GroupTable =3
+                    GridlineColor =0
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    HideDuplicates = NotDefault
+                    IMESentenceMode =3
+                    Width =7200
+                    Height =480
+                    FontWeight =700
+                    ForeColor =1462991
+                    Name ="AccessIntervalControl1"
+                    ControlSource ="=Replace(Replace(\"|1, |2\",\"|1\",Nz([Month Name],\"\")),\"|2\",Nz([Year],\"\")"
+                        ")"
+                    Tag ="Insert2FieldsInText~TextWithPipe1AndPipe2=|1, |2~FieldName1=Month Name~NullText1"
+                        "=~FieldName2=Year~NullText2="
+                    GUID = Begin
+                        0xd3f7581c3face246a59645f51f3ae3e9
+                    End
+                    GridlineColor =0
+                    IMEMode =0
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            Height =345
+            Name ="Detail"
+            GUID = Begin
+                0x3d83233b5685be468cf5238324da4731
+            End
+            AutoHeight =255
+            AlternateBackColor =16777215
+            Begin
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =30
+                    Top =30
+                    Width =5390
+                    Height =255
+                    ColumnWidth =3150
+                    ColumnOrder =1
+                    Name ="SalesGroupingField"
+                    ControlSource ="SalesGroupingField"
+                    GUID = Begin
+                        0x83701714c0346b45b7aded812b817e44
+                    End
+                    ColumnGroup =1
+                    GroupTable =3
+                    GridlineStyleBottom =1
+                    IMEMode =0
+                End
+                Begin TextBox
+                    DecimalPlaces =2
+                    IMESentenceMode =3
+                    Left =5480
+                    Top =30
+                    Width =1740
+                    Height =255
+                    ColumnOrder =2
+                    TabIndex =1
+                    Name ="Total Sales"
+                    ControlSource ="Total Sales"
+                    Format ="Currency"
+                    EventProcPrefix ="Total_Sales"
+                    GUID = Begin
+                        0x57c61ee9e0a8f04c82d8c17514be1d3b
+                    End
+                    ColumnGroup =2
+                    GroupTable =3
+                    GridlineStyleBottom =1
+                    IMEMode =0
+                End
+            End
+        End
+        Begin BreakFooter
+            KeepTogether = NotDefault
+            ForceNewPage =2
+            Height =600
+            BreakLevel =1
+            Name ="GroupFooter0"
+            GUID = Begin
+                0xe2ad9a535c11164c9746e5768f06e9a9
+            End
+            AlternateBackColor =16777215
+            Begin
+                Begin TextBox
+                    DecimalPlaces =2
+                    IMESentenceMode =3
+                    Left =5480
+                    Top =98
+                    Width =1740
+                    Height =255
+                    ColumnOrder =0
+                    ForeColor =1769599
+                    Name ="txtTotalMonthlySales"
+                    ControlSource ="=Nz(Sum([Total Sales]),0)"
+                    Format ="Currency"
+                    Tag ="Sum~FieldName=Total Sales"
+                    GUID = Begin
+                        0x3387e6b4faf08c49bad3c026437bc962
+                    End
+                    ColumnGroup =2
+                    GroupTable =3
+                    GridlineColor =0
+                    IMEMode =0
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    IMESentenceMode =3
+                    Left =1740
+                    Top =120
+                    Width =3435
+                    Height =255
+                    TabIndex =1
+                    ForeColor =1769599
+                    Name ="txtTotalMonthlySales_Label"
+                    ControlSource ="=Replace(\"| Sales Total\",\"|\",Nz([Month Name],\"\"))"
+                    Tag ="InsertFieldInText~TextWithPipe=| Sales Total~FieldName=Month Name~NullText="
+                    GUID = Begin
+                        0x7a757b1467945b48a7f1fa57b4c50d69
+                    End
+                    GridlineColor =0
+                    IMEMode =0
+                End
+            End
+        End
+        Begin PageFooter
+            Height =645
+            Name ="PageFooterSection"
+            GUID = Begin
+                0xb5916ccd00f08b49afebb7bb131bc353
+            End
+            AutoHeight =255
+            Begin
+                Begin TextBox
+                    Enabled = NotDefault
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =2520
+                    Top =300
+                    Width =5760
+                    Height =225
+                    ColumnOrder =0
+                    FontSize =8
+                    ForeColor =12371399
+                    Name ="txtPages"
+                    ControlSource ="=\"Page \" & [Page] & \" of \" & [Pages]"
+                    Tag ="PageOfPages"
+                    GUID = Begin
+                        0x8e62a4306609a24db01edd86dabd988a
+                    End
+                    GridlineColor =0
+                    IMEMode =0
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="ReportFooter"
+            GUID = Begin
+                0xd9d0496fa6df484297e59fbf2624ff39
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+
+Private Sub Report_Open(Cancel As Integer)
+    On Error GoTo ErrorHandler
+    Dim strSQL As String
+
+    If IsNull(TempVars![Display]) Or IsNull(TempVars![Year]) Or IsNull(TempVars![Month]) Or IsNull(TempVars![Group By]) Then
+        DoCmd.OpenForm "Sales Reports Dialog"
+        Cancel = True
+        Exit Sub
+    End If
+    
+    strSQL = "SELECT [Year]"
+    strSQL = strSQL & ", [Month]"
+    strSQL = strSQL & ", First([" & TempVars![Display] & "]) AS SalesGroupingField"
+    strSQL = strSQL & ", Sum([Sales]) AS [Total Sales]"
+    strSQL = strSQL & ", First([Sales Analysis].[Month Name]) AS [Month Name]"
+    strSQL = strSQL & " FROM [Sales Analysis] "
+    strSQL = strSQL & " Where [Month]=" & TempVars![Month] & " AND [Year]=" & TempVars![Year]
+    strSQL = strSQL & " GROUP BY [Year], [Month], [" & TempVars![Group By] & "];"
+    
+    Me.RecordSource = strSQL
+    Me.SalesGroupingField_Label.Caption = TempVars![Display]
+    
+Done:
+    Exit Sub
+ErrorHandler:
+    ' Resume statement will be hit when debugging
+    If eh.LogError("Monthly Sales Report_Open", "strSQL = " & strSQL) Then
+        Resume
+    Else
+        Cancel = True
+    End If
+End Sub

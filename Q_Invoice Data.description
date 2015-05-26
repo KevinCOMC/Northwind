@@ -1,0 +1,1 @@
+(Criteria) Record source for Invoice report. Based on six tables. Includes expressions that concatenate first and last employee name and that use the CCur function to calculate extended price.
