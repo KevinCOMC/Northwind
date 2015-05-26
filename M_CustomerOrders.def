@@ -10,19 +10,19 @@ End Enum
 
 
 Function CreateInvoice(OrderID As Long, Amt As Currency, InvoiceID As Long) As Boolean
-    Dim rsw As New RecordsetWrapper
-    If rsw.OpenRecordset("Invoices") Then
-        With rsw.Recordset
-            If Not rsw.AddNew Then Exit Function
-            ![Order ID] = OrderID
-            ![Amount Due] = Amt
-            If rsw.Update Then
-                .Bookmark = .LastModified
-                InvoiceID = ![Invoice ID]
-                CreateInvoice = True
-            End If
-        End With
-    End If
+          Dim rsw As New RecordsetWrapper
+10        If rsw.OpenRecordset("Invoices") Then
+20            With rsw.Recordset
+30                If Not rsw.AddNew Then Exit Function
+40                ![Order ID] = OrderID
+50                ![Amount Due] = Amt
+60                If rsw.Update Then
+70                    .Bookmark = .LastModified
+80                    InvoiceID = ![Invoice ID]
+90                    CreateInvoice = True
+100               End If
+110           End With
+120       End If
 End Function
 
 
